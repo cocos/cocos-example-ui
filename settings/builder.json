@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnysdk": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.demo-ui",
+  "startScene": "de6d47e5-011f-4c10-a385-1cd318777662",
+  "title": "demo-ui",
+  "webOrientation": "portrait"
+}
