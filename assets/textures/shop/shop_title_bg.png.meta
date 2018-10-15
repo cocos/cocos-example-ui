@@ -1,9 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.0",
   "uuid": "f8eef53e-99c2-4b3e-8e67-6cf504c7b20d",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
     "shop_title_bg": {
       "ver": "1.0.3",
@@ -13,11 +15,11 @@
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 0,
-      "offsetY": 0.5,
-      "trimX": 1,
+      "offsetY": 0,
+      "trimX": 0,
       "trimY": 0,
-      "width": 299,
-      "height": 105,
+      "width": 301,
+      "height": 106,
       "rawWidth": 301,
       "rawHeight": 106,
       "borderTop": 0,

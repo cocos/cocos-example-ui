@@ -1,9 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.0",
   "uuid": "d4c4ae33-ef49-4bd1-8f32-d149dc215517",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
     "ic_蛇人3": {
       "ver": "1.0.3",
@@ -12,11 +14,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": -2.5,
+      "offsetX": -3,
       "offsetY": 1,
-      "trimX": 30,
+      "trimX": 29,
       "trimY": 27,
-      "width": 85,
+      "width": 86,
       "height": 94,
       "rawWidth": 150,
       "rawHeight": 150,

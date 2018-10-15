@@ -1,9 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.0",
   "uuid": "026453df-ae8a-49aa-88f9-4efa42416e10",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
     "ic_salamander": {
       "ver": "1.0.3",
@@ -13,11 +15,11 @@
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 2.5,
-      "offsetY": -7,
+      "offsetY": -7.5,
       "trimX": 24,
       "trimY": 32,
       "width": 107,
-      "height": 100,
+      "height": 101,
       "rawWidth": 150,
       "rawHeight": 150,
       "borderTop": 0,

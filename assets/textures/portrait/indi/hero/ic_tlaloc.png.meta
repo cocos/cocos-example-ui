@@ -1,9 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.0",
   "uuid": "f14220fd-b242-4ba3-85a0-fdc16ce6c1b5",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
     "ic_tlaloc": {
       "ver": "1.0.3",
@@ -12,11 +14,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 0,
+      "offsetX": 0.5,
       "offsetY": -7.5,
       "trimX": 19,
       "trimY": 24,
-      "width": 112,
+      "width": 113,
       "height": 117,
       "rawWidth": 150,
       "rawHeight": 150,

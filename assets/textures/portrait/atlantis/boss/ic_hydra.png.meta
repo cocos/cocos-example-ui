@@ -1,9 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.0",
   "uuid": "fa3223bf-3ecb-41be-af59-c323ed763ce4",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
     "ic_hydra": {
       "ver": "1.0.3",
@@ -12,11 +14,11 @@
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
-      "offsetX": 1,
+      "offsetX": 1.5,
       "offsetY": 9,
-      "trimX": 15,
+      "trimX": 14,
       "trimY": 0,
-      "width": 122,
+      "width": 125,
       "height": 132,
       "rawWidth": 150,
       "rawHeight": 150,
