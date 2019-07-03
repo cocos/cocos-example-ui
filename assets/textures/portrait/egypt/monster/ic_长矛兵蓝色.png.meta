@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_长矛兵蓝色": {
-      "ver": "1.0.3",
-      "uuid": "d6a31310-abcc-4c3c-8e7e-344eb23beae2",
-      "rawTextureUuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": -2,
-      "offsetY": 6,
-      "trimX": 29,
-      "trimY": 12,
-      "width": 88,
-      "height": 114,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "8defb5ec-4894-4a50-a9d8-eb33f64034a7"
+      },
+      "displayName": "ic_长矛兵蓝色"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "8defb5ec-4894-4a50-a9d8-eb33f64034a7@texture"
+  },
+  "imported": true
 }

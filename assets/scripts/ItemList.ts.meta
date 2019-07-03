@@ -1,0 +1,15 @@
+{
+  "ver": "1.0.802",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "65624be9-42bf-46c3-8e05-3de4041d684c",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ItemList.ts",
+    "importAsPlugin": false
+  }
+}

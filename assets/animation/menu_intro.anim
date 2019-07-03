@@ -2,88 +2,123 @@
   "__type__": "cc.AnimationClip",
   "_name": "menu_intro",
   "_objFlags": 0,
-  "_rawFiles": null,
-  "_duration": 0.3333333333333333,
+  "_native": "",
   "sample": 60,
   "speed": 1,
   "wrapMode": 0,
-  "curveData": {
-    "paths": {
-      "upper": {
-        "comps": {
-          "cc.Widget": {
-            "top": [
+  "curveDatas": {
+    "mask": {
+      "comps": {
+        "cc.SpriteComponent": {
+          "color": {
+            "keys": 0,
+            "values": [
               {
-                "frame": 0,
-                "value": -238,
-                "curve": [
-                  0.35,
-                  0,
-                  0.6,
-                  1.47
-                ]
+                "__type__": "cc.Color",
+                "r": 3,
+                "g": 3,
+                "b": 3,
+                "a": 255
               },
               {
-                "frame": 0.25,
-                "value": 0
+                "__type__": "cc.Color",
+                "r": 3,
+                "g": 3,
+                "b": 3,
+                "a": 0
               }
+            ],
+            "easingMethods": [
+              null,
+              null
             ]
           }
-        },
-        "props": {}
-      },
-      "lower": {
-        "comps": {
-          "cc.Widget": {
-            "bottom": [
-              {
-                "frame": 0,
-                "value": -220,
-                "curve": [
-                  0.52,
-                  0,
-                  0.65,
-                  1.47
-                ]
-              },
-              {
-                "frame": 0.25,
-                "value": 0
-              }
-            ]
-          }
-        },
-        "props": {}
-      },
-      "mask": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 255
-            },
-            {
-              "frame": 0.3333333333333333,
-              "value": 0
-            }
-          ]
         }
-      },
-      "loading": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 255
-            },
-            {
-              "frame": 0.08333333333333333,
-              "value": 0
-            }
-          ]
+      }
+    },
+    "loading": {
+      "comps": {
+        "cc.LabelComponent": {
+          "color": {
+            "keys": 1,
+            "values": [
+              {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              },
+              {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 0
+              }
+            ],
+            "easingMethods": [
+              null,
+              null
+            ]
+          }
+        }
+      }
+    },
+    "upper": {
+      "comps": {
+        "cc.WidgetComponent": {
+          "top": {
+            "keys": 2,
+            "values": [
+              -238,
+              0
+            ],
+            "easingMethods": [
+              null,
+              null
+            ]
+          }
+        }
+      }
+    },
+    "lower": {
+      "comps": {
+        "cc.WidgetComponent": {
+          "bottom": {
+            "keys": 3,
+            "values": [
+              -220,
+              0
+            ],
+            "easingMethods": [
+              null,
+              null
+            ]
+          }
         }
       }
     }
   },
-  "events": []
+  "events": [],
+  "_duration": 0.3333333333333333,
+  "_keys": [
+    [
+      0,
+      0.3333333333333333
+    ],
+    [
+      0,
+      0.08333333333333333
+    ],
+    [
+      0,
+      0.25
+    ],
+    [
+      0,
+      0.25
+    ]
+  ],
+  "_stepness": 0
 }

@@ -2,43 +2,25 @@
   "__type__": "cc.AnimationClip",
   "_name": "sub_fold",
   "_objFlags": 0,
-  "_rawFiles": null,
-  "_duration": 0.25,
+  "_native": "",
   "sample": 60,
   "speed": 1,
   "wrapMode": 1,
-  "curveData": {
-    "comps": {
-      "cc.Widget": {
-        "bottom": [
-          {
-            "frame": 0,
-            "value": 139.5,
-            "curve": [
-              0.46,
-              -0.31,
-              0.6,
-              1.86
+  "curveDatas": {
+    "/": {
+      "comps": {
+        "cc.WidgetComponent": {
+          "bottom": {
+            "keys": 0,
+            "values": [
+              139.5,
+              44.5
+            ],
+            "easingMethods": [
+              null,
+              null
             ]
-          },
-          {
-            "frame": 0.25,
-            "value": 44.5
           }
-        ]
-      }
-    },
-    "paths": {
-      "btn_expand_slot/btn_fold": {
-        "props": {},
-        "comps": {
-          "cc.Button": {}
-        }
-      },
-      "btn_expand_slot/btn_expand": {
-        "props": {},
-        "comps": {
-          "cc.Button": {}
         }
       }
     }
@@ -51,5 +33,13 @@
         true
       ]
     }
-  ]
+  ],
+  "_duration": 0.25,
+  "_keys": [
+    [
+      0,
+      0.25
+    ]
+  ],
+  "_stepness": 0
 }

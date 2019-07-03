@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_蛇人1": {
-      "ver": "1.0.3",
-      "uuid": "603959b4-cda1-470a-b2cd-e00a07bf40ef",
-      "rawTextureUuid": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": -1.5,
-      "offsetY": 0.5,
-      "trimX": 32,
-      "trimY": 29,
-      "width": 83,
-      "height": 91,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65"
+      },
+      "displayName": "ic_蛇人1"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65@texture"
+  },
+  "imported": true
 }

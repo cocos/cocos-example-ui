@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_shydra": {
-      "ver": "1.0.3",
-      "uuid": "136bca02-c0bb-4ba6-a63e-fef67f47e3c2",
-      "rawTextureUuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 1,
-      "offsetY": 9,
-      "trimX": 15,
-      "trimY": 0,
-      "width": 122,
-      "height": 132,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "84499e83-3aaa-4e00-829b-fa02182e9ca3"
+      },
+      "displayName": "ic_shydra"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "84499e83-3aaa-4e00-829b-fa02182e9ca3@texture"
+  },
+  "imported": true
 }

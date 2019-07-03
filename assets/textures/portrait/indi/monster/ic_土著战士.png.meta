@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_土著战士": {
-      "ver": "1.0.3",
-      "uuid": "28e0498a-5384-459b-bd74-d18bea61a464",
-      "rawTextureUuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 6,
-      "offsetY": -1.5,
-      "trimX": 34,
-      "trimY": 31,
-      "width": 94,
-      "height": 91,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "79bfd558-baab-416f-8c7b-fe170bb3f0e1@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "79bfd558-baab-416f-8c7b-fe170bb3f0e1"
+      },
+      "displayName": "ic_土著战士"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "79bfd558-baab-416f-8c7b-fe170bb3f0e1@texture"
+  },
+  "imported": true
 }

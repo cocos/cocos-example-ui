@@ -1,5 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.1",
   "uuid": "1472f312-9671-4996-a036-34c3f3c1bd41",
-  "subMetas": {}
+  "subMetas": {},
+  "importer": "animation-clip",
+  "files": [
+    ".json"
+  ],
+  "userData": {},
+  "imported": true
 }

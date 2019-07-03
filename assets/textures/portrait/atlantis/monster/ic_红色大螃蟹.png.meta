@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_红色大螃蟹": {
-      "ver": "1.0.3",
-      "uuid": "89bb4c10-646b-4104-8eb5-aad012ae2e26",
-      "rawTextureUuid": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 2.5,
-      "offsetY": -5.5,
-      "trimX": 24,
-      "trimY": 36,
-      "width": 107,
-      "height": 89,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54"
+      },
+      "displayName": "ic_红色大螃蟹"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54@texture"
+  },
+  "imported": true
 }

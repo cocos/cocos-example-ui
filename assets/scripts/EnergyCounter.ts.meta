@@ -1,0 +1,15 @@
+{
+  "ver": "1.0.802",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "ee01cbae-5d67-4a3e-9dca-e99487f9788e",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/EnergyCounter.ts",
+    "importAsPlugin": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ver": "1.0.802",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "73177ee7-dcb7-45ee-b12b-886de351de0a",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ChargeUI.ts",
+    "importAsPlugin": false
+  }
+}

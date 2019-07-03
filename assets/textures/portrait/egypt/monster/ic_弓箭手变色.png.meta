@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "779f5916-8d99-451c-89a4-6c750ffd5f04",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_弓箭手变色": {
-      "ver": "1.0.3",
-      "uuid": "52e70516-5e73-4ee4-8bb4-32a897495830",
-      "rawTextureUuid": "779f5916-8d99-451c-89a4-6c750ffd5f04",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 1,
-      "offsetY": -7,
-      "trimX": 36,
-      "trimY": 41,
-      "width": 80,
-      "height": 82,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "779f5916-8d99-451c-89a4-6c750ffd5f04@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "779f5916-8d99-451c-89a4-6c750ffd5f04"
+      },
+      "displayName": "ic_弓箭手变色"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "779f5916-8d99-451c-89a4-6c750ffd5f04@texture"
+  },
+  "imported": true
 }
