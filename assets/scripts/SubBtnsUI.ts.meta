@@ -1,0 +1,15 @@
+{
+  "ver": "1.0.802",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "bc2c4cd6-d3d9-47c2-99dd-5dfb8f1f366f",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/SubBtnsUI.ts",
+    "importAsPlugin": false
+  }
+}

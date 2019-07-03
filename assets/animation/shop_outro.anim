@@ -2,125 +2,129 @@
   "__type__": "cc.AnimationClip",
   "_name": "shop_outro",
   "_objFlags": 0,
-  "_rawFiles": null,
-  "_duration": 0.75,
+  "_native": "",
   "sample": 60,
   "speed": 1,
   "wrapMode": 0,
-  "curveData": {
-    "paths": {
-      "mask": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0.5833333333333334,
-              "value": 0
-            },
-            {
-              "frame": 0.75,
-              "value": 255
-            }
-          ]
-        }
-      },
-      "shop_figure": {
-        "props": {
-          "position": [
-            {
-              "frame": 0,
-              "value": [
-                -114,
-                -112.99999999999997
-              ],
-              "curve": [
-                0.56,
-                -0.52,
-                0.84,
-                0.56
-              ]
-            },
-            {
-              "frame": 0.3333333333333333,
-              "value": [
-                -609,
-                -113.4
-              ]
-            }
-          ]
-        },
-        "comps": {
-          "cc.Widget": {}
-        }
-      },
-      "shop_menu": {
-        "props": {
-          "scaleY": [
-            {
-              "frame": 0.08333333333333333,
-              "value": 1
-            },
-            {
-              "frame": 0.3333333333333333,
-              "value": 0.8,
-              "curve": [
-                0.02,
-                0.55,
-                0.43,
-                1.92
-              ]
-            },
-            {
-              "frame": 0.5833333333333334,
-              "value": 1,
-              "curve": [
-                0.22,
-                0.66,
-                0.61,
-                0.99
-              ]
-            }
-          ]
-        },
-        "comps": {
-          "cc.Widget": {
-            "top": [
+  "curveDatas": {
+    "mask": {
+      "comps": {
+        "cc.SpriteComponent": {
+          "color": {
+            "keys": 0,
+            "values": [
               {
-                "frame": 0.25,
-                "value": 122.5
+                "__type__": "cc.Color",
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 0
               },
               {
-                "frame": 0.5,
-                "value": -590.5,
-                "curve": [
-                  0.08,
-                  0.79,
-                  0.52,
-                  0.99
-                ]
+                "__type__": "cc.Color",
+                "r": 0,
+                "g": 0,
+                "b": 0,
+                "a": 255
               }
+            ],
+            "easingMethods": [
+              null,
+              null
             ]
           }
         }
+      }
+    },
+    "shop_figure": {
+      "props": {
+        "position": {
+          "keys": 1,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 114,
+              "y": -113.4,
+              "z": 0
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": -609,
+              "y": -113.4,
+              "z": 0
+            }
+          ],
+          "easingMethods": [
+            null,
+            null
+          ]
+        }
+      }
+    },
+    "shop_menu": {
+      "props": {
+        "scale": {
+          "keys": 2,
+          "values": [
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 0.8,
+              "z": 1
+            },
+            {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          ],
+          "easingMethods": [
+            null,
+            [
+              0.03,
+              0.55,
+              0.46,
+              1.89
+            ],
+            null
+          ]
+        }
       },
-      "bot_frame": {
-        "props": {},
-        "comps": {
-          "cc.Widget": {
-            "bottom": [
-              {
-                "frame": 0.4166666666666667,
-                "value": 139
-              },
-              {
-                "frame": 0.75,
-                "value": -207,
-                "curve": [
-                  0.3,
-                  0.3,
-                  0.58,
-                  1.58
-                ]
-              }
+      "comps": {
+        "cc.WidgetComponent": {
+          "top": {
+            "keys": 3,
+            "values": [
+              122.5,
+              -590.5
+            ],
+            "easingMethods": [
+              null,
+              null
+            ]
+          }
+        }
+      }
+    },
+    "bot_frame": {
+      "comps": {
+        "cc.WidgetComponent": {
+          "bottom": {
+            "keys": 4,
+            "values": [
+              139,
+              -207
+            ],
+            "easingMethods": [
+              null,
+              null
             ]
           }
         }
@@ -133,5 +137,30 @@
       "func": "onFinishHide",
       "params": []
     }
-  ]
+  ],
+  "_duration": 0.75,
+  "_keys": [
+    [
+      0.5666666666666667,
+      0.7333333333333333
+    ],
+    [
+      0.06666666666666667,
+      0.31666666666666665
+    ],
+    [
+      0.06666666666666667,
+      0.31666666666666665,
+      0.5666666666666667
+    ],
+    [
+      0.23333333333333334,
+      0.48333333333333334
+    ],
+    [
+      0.4,
+      0.7333333333333333
+    ]
+  ],
+  "_stepness": 0
 }

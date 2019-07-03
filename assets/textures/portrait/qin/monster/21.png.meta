@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "d630bee3-6a76-400b-864d-0832423ab0b2",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "21": {
-      "ver": "1.0.3",
-      "uuid": "97abaa59-3dd2-4a23-90eb-57e5e82e1b5f",
-      "rawTextureUuid": "d630bee3-6a76-400b-864d-0832423ab0b2",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 3,
-      "offsetY": 2,
-      "trimX": 41,
-      "trimY": 23,
-      "width": 74,
-      "height": 100,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "d630bee3-6a76-400b-864d-0832423ab0b2@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d630bee3-6a76-400b-864d-0832423ab0b2"
+      },
+      "displayName": "21"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "d630bee3-6a76-400b-864d-0832423ab0b2@texture"
+  },
+  "imported": true
 }

@@ -2,115 +2,127 @@
   "__type__": "cc.AnimationClip",
   "_name": "tab_turnsmall",
   "_objFlags": 0,
-  "_duration": 0.2,
+  "_native": "",
   "sample": 30,
   "speed": 1,
   "wrapMode": 1,
-  "curveData": {
-    "props": {
-      "height": [
-        {
-          "frame": 0,
-          "value": 210
-        },
-        {
-          "frame": 0.2,
-          "value": 135
+  "curveDatas": {
+    "/": {
+      "comps": {
+        "cc.UITransformComponent": {
+          "contentSize": {
+            "keys": 0,
+            "values": [
+              {
+                "__type__": "cc.Size",
+                "width": 160,
+                "height": 120
+              },
+              {
+                "__type__": "cc.Size",
+                "width": 120,
+                "height": 120
+              }
+            ],
+            "easingMethods": [
+              null,
+              null
+            ]
+          }
         }
-      ]
+      }
     },
-    "paths": {
-      "icon": {
-        "props": {
-          "position": [
+    "icon": {
+      "props": {
+        "position": {
+          "keys": 1,
+          "values": [
             {
-              "frame": 0,
-              "value": [
-                0,
-                14
-              ]
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 20.3,
+              "z": 0
             },
             {
-              "frame": 0.2,
-              "value": [
-                0,
-                0
-              ]
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
             }
           ],
-          "scaleX": [
+          "easingMethods": [
+            null,
+            null
+          ]
+        },
+        "scale": {
+          "keys": 2,
+          "values": [
             {
-              "frame": 0,
-              "value": 1
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
             },
             {
-              "frame": 0.2,
-              "value": 0.8
+              "__type__": "cc.Vec3",
+              "x": 0.8,
+              "y": 0.8,
+              "z": 1
             }
           ],
-          "scaleY": [
-            {
-              "frame": 0,
-              "value": 1
-            },
-            {
-              "frame": 0.2,
-              "value": 0.8
-            }
+          "easingMethods": [
+            null,
+            null
           ]
         }
-      },
-      "label": {
-        "props": {
-          "opacity": [
+      }
+    },
+    "arrows": {
+      "props": {
+        "scale": {
+          "keys": 3,
+          "values": [
             {
-              "frame": 0,
-              "value": 255
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
             },
             {
-              "frame": 0.1,
-              "value": 0
-            }
-          ]
-        }
-      },
-      "arrows": {
-        "props": {
-          "scaleX": [
-            {
-              "frame": 0,
-              "value": 1,
-              "curve": [
-                0.33,
-                -0.31,
-                0.74,
-                0.55
-              ]
-            },
-            {
-              "frame": 0.2,
-              "value": 0
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 1
             }
           ],
-          "scaleY": [
-            {
-              "frame": 0,
-              "value": 1,
-              "curve": [
-                0.36,
-                -0.4,
-                0.74,
-                0.51
-              ]
-            },
-            {
-              "frame": 0.2,
-              "value": 0
-            }
+          "easingMethods": [
+            null,
+            null
           ]
         }
       }
     }
   },
-  "events": []
+  "events": [],
+  "_duration": 0.2,
+  "_keys": [
+    [
+      0,
+      0.2
+    ],
+    [
+      0,
+      0.2
+    ],
+    [
+      0,
+      0.2
+    ],
+    [
+      0,
+      0.2
+    ]
+  ],
+  "_stepness": 0
 }

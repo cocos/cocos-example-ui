@@ -1,6 +1,10 @@
 {
-  "ver": "1.0.1",
-  "uuid": "a3c242be-90c9-45ce-9b19-bdb8873c2148",
-  "isGroup": false,
-  "subMetas": {}
+  "ver": "0.0.1",
+  "importer": "*",
+  "imported": true,
+  "uuid": "1aa710af-41d7-4ff9-9af7-09c042ad9e36",
+  "displayName": "",
+  "files": [],
+  "subMetas": {},
+  "userData": {}
 }

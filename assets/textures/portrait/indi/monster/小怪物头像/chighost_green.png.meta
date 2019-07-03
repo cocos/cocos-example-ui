@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "chighost_green": {
-      "ver": "1.0.3",
-      "uuid": "ffef9627-a009-4f39-827a-36104030ebca",
-      "rawTextureUuid": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 1.5,
-      "offsetY": -1,
-      "trimX": 24,
-      "trimY": 21,
-      "width": 105,
-      "height": 110,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701"
+      },
+      "displayName": "chighost_green"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701@texture"
+  },
+  "imported": true
 }

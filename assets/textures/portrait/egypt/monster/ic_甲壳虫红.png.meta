@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_甲壳虫红": {
-      "ver": "1.0.3",
-      "uuid": "a4aaaf54-5bc6-4b7e-95eb-a6ad01e03124",
-      "rawTextureUuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 1.5,
-      "offsetY": -7,
-      "trimX": 15,
-      "trimY": 34,
-      "width": 123,
-      "height": 96,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "88eca76d-decc-4ee3-bb6c-4e5204221af0"
+      },
+      "displayName": "ic_甲壳虫红"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "88eca76d-decc-4ee3-bb6c-4e5204221af0@texture"
+  },
+  "imported": true
 }

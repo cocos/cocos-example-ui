@@ -2,68 +2,123 @@
   "__type__": "cc.AnimationClip",
   "_name": "menu_reset",
   "_objFlags": 0,
-  "_rawFiles": null,
-  "_duration": 0,
+  "_native": "",
   "sample": 60,
   "speed": 1,
   "wrapMode": 0,
-  "curveData": {
-    "paths": {
-      "mask": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 255
-            }
-          ]
-        }
-      },
-      "upper": {
-        "comps": {
-          "cc.Widget": {
-            "top": [
+  "curveDatas": {
+    "mask": {
+      "comps": {
+        "cc.SpriteComponent": {
+          "color": {
+            "keys": 0,
+            "values": [
               {
-                "frame": 0,
-                "value": -238
+                "__type__": "cc.Color",
+                "r": 3,
+                "g": 3,
+                "b": 3,
+                "a": 255
               }
+            ],
+            "easingMethods": [
+              null
             ]
           }
         }
-      },
-      "lower": {
-        "comps": {
-          "cc.Widget": {
-            "bottom": [
+      }
+    },
+    "loading": {
+      "comps": {
+        "cc.LabelComponent": {
+          "color": {
+            "keys": 1,
+            "values": [
               {
-                "frame": 0,
-                "value": -220
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
               }
+            ],
+            "easingMethods": [
+              null
             ]
           }
         }
-      },
-      "loading": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 255
-            }
-          ]
+      }
+    },
+    "upper": {
+      "comps": {
+        "cc.WidgetComponent": {
+          "top": {
+            "keys": 2,
+            "values": [
+              -238
+            ],
+            "easingMethods": [
+              null
+            ]
+          }
         }
-      },
-      "background": {
-        "props": {
-          "opacity": [
-            {
-              "frame": 0,
-              "value": 255
-            }
-          ]
+      }
+    },
+    "lower": {
+      "comps": {
+        "cc.WidgetComponent": {
+          "bottom": {
+            "keys": 3,
+            "values": [
+              -220
+            ],
+            "easingMethods": [
+              null
+            ]
+          }
+        }
+      }
+    },
+    "background": {
+      "comps": {
+        "cc.SpriteComponent": {
+          "color": {
+            "keys": 4,
+            "values": [
+              {
+                "__type__": "cc.Color",
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 255
+              }
+            ],
+            "easingMethods": [
+              null
+            ]
+          }
         }
       }
     }
   },
-  "events": []
+  "events": [],
+  "_duration": 0,
+  "_keys": [
+    [
+      0
+    ],
+    [
+      0
+    ],
+    [
+      0
+    ],
+    [
+      0
+    ],
+    [
+      0
+    ]
+  ],
+  "_stepness": 0
 }

@@ -1,30 +1,41 @@
 {
-  "ver": "1.0.0",
+  "ver": "1.0.14",
   "uuid": "d1931aa4-944e-49b6-96ce-0312591382c1",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "ic_红色塞壬女妖": {
-      "ver": "1.0.3",
-      "uuid": "19ef1d97-37ae-49ff-afeb-f007cd627f4f",
-      "rawTextureUuid": "d1931aa4-944e-49b6-96ce-0312591382c1",
-      "trimType": "auto",
-      "trimThreshold": 1,
-      "rotated": false,
-      "offsetX": 3,
-      "offsetY": -6,
-      "trimX": 33,
-      "trimY": 32,
-      "width": 90,
-      "height": 98,
-      "rawWidth": 150,
-      "rawHeight": 150,
-      "borderTop": 0,
-      "borderBottom": 0,
-      "borderLeft": 0,
-      "borderRight": 0,
-      "subMetas": {}
+    "texture": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "d1931aa4-944e-49b6-96ce-0312591382c1@texture",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d1931aa4-944e-49b6-96ce-0312591382c1"
+      },
+      "displayName": "ic_红色塞壬女妖"
     }
-  }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "d1931aa4-944e-49b6-96ce-0312591382c1@texture"
+  },
+  "imported": true
 }

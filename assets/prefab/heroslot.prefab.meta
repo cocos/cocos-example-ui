@@ -1,5 +1,12 @@
 {
-  "ver": "1.0.0",
-  "uuid": "a5ad457a-c134-4e6c-9d95-27ffa7968d6a",
-  "subMetas": {}
+  "ver": "1.0.4",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "dc78ac71-e8bb-4c89-9115-71bce6cc4928",
+  "displayName": "",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {}
 }
