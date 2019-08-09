@@ -1,5 +1,5 @@
 
-import { _decorator, Component, SpriteComponent, Node, AnimationComponent } from "Cocos3D";
+import { _decorator, Component, SpriteComponent, Node, AnimationComponent } from "cc";
 const { ccclass, property } = _decorator;
 import { HomeUI, PanelType } from "./HomeUI";
 import { ChargeUI } from "./ChargeUI";

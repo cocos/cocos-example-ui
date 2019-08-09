@@ -1,33 +1,46 @@
-import { _decorator, Component, Vec3, ButtonComponent} from "Cocos3D";
+import { _decorator, Component, Vec3, ButtonComponent, tween, SystemEventType, EventTouch} from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass
 export class ButtonScaler extends Component {
     @property
-    public pressedScale = 1;
+    public scaleTo = new Vec3(1.2, 1.2, 1.2);
     @property
-    public transDuration = 0;
+    public transDuration = 0.2;
 
     public initScale = new Vec3();
     public button: ButtonComponent | null = null;
+    private _scale = new Vec3(1, 1, 1);
+    private _lastScale = new Vec3();
+    private _start = new Vec3();
 
     // use this for initialization
     onLoad() {
         var self = this;
         self.initScale = this.node.scale;
         self.button = self.getComponent(ButtonComponent);
-        // self.scaleDownAction = cc.scaleTo(self.transDuration, self.pressedScale);
-        // self.scaleUpAction = cc.scaleTo(self.transDuration, self.initScale);
-        function onTouchDown(event) {
-            // this.stopAllActions();
-            // this.runAction(self.scaleDownAction);
+        const tweenDown = tween(this._scale);
+        const tewenUp = tween(this._scale);
+        this.node.getScale(this._start);
+        tweenDown.to(this.transDuration, this.scaleTo, { easing: 'Cubic-Out'});
+        tewenUp.to(this.transDuration, this._start, { easing: 'Cubic-Out' });
+        this._lastScale.set(this._scale);
+        function onTouchDown(event: EventTouch) {
+            tweenDown.start();
         }
-        function onTouchUp(event) {
-            // this.stopAllActions();
-            // this.runAction(self.scaleUpAction);
+        function onTouchUp(event: EventTouch) {
+            tweenDown.stop();
+            tewenUp.start();
         }
-        this.node.on('touchstart', onTouchDown, this.node);
-        this.node.on('touchend', onTouchUp, this.node);
-        this.node.on('touchcancel', onTouchUp, this.node);
+        this.node.on(SystemEventType.TOUCH_START, onTouchDown, this);
+        this.node.on(SystemEventType.TOUCH_END, onTouchUp, this);
+        this.node.on(SystemEventType.TOUCH_CANCEL, onTouchUp, this);
+    }
+
+    update() {
+        if(!this._scale.equals(this._lastScale)){
+            this.node.setScale(this._scale);
+            this._lastScale.set(this._scale);
+        }
     }
 }

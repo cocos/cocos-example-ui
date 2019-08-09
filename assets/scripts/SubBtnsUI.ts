@@ -1,4 +1,4 @@
-import { _decorator, Component, AnimationComponent, ButtonComponent, Node } from "Cocos3D";
+import { _decorator, Component, AnimationComponent, ButtonComponent, Node } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass

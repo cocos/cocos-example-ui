@@ -1,4 +1,4 @@
-import { _decorator, Component, LabelComponent, SpriteComponent, SpriteFrame } from "Cocos3D";
+import { _decorator, Component, LabelComponent, SpriteComponent, SpriteFrame } from "cc";
 const { ccclass, property } = _decorator;
 
 const getRandomInt = function (min: number, max: number) {

@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteComponent, LabelComponent } from "Cocos3D";
+import { _decorator, Component, SpriteComponent, LabelComponent } from "cc";
 import { Item } from "./ItemList";
 const { ccclass, property } = _decorator;
 

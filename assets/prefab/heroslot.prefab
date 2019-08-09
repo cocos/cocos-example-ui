@@ -74,7 +74,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "d21Dcr3r9EoJonEINwAxAw"
   },
   {
     "__type__": "cc.Node",
@@ -123,7 +123,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "e9eM3lsqJKSoexQ4K6xh4D"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -143,7 +143,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "8di23mJU1HQJkfqi/bY9+F"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -179,7 +179,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "4a2wcx/GlI3ZKjPt+leyS/"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -243,7 +243,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "82iVu4qIRAgrGGKOLtVMTl"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -263,7 +263,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "8fToEXhb1P+7PY6mGGLEHk"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -299,7 +299,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "4dcT/Vk6lCRIkclr2eXD5H"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -379,7 +379,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "67bW97JgZP7rC77k9TfERb"
   },
   {
     "__type__": "cc.Node",
@@ -428,7 +428,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "dfFpI3HEVBJI5hzbkHJxlo"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -448,7 +448,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "f1hRQSmx1P5LN16dQxIkbi"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -484,7 +484,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "a0qZ1D0q5G3rDtIlv2ybS/"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -548,7 +548,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "12h/8qWeVN0at9Ro0CIUhf"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -568,7 +568,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "3dDbSt3hRD3YsdVE3Pf3FE"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -604,7 +604,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "49ez83gRRDLI7F/sXIKr2k"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -668,7 +668,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "74uRqwg2pBPLSdlN/pSmJf"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -688,7 +688,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "5af9YG1V9I/p0dyVN6Lb5y"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -724,7 +724,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "a6GGPzyoBEmYTpG87vypcO"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -788,7 +788,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "a2knwF4P1A64IjLJB9WxUo"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -808,7 +808,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "1f6y4ZAuhBsa5Tt0UYfPSU"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -844,7 +844,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "09fUTH/4lM5Z5gIVri3Giz"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -908,7 +908,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "3f6aUdlntIZZ9NalBU7MpN"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -928,7 +928,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "c0hZB0F8xFvKzBk1s1W07E"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -964,7 +964,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "28biZrtpJBq5xAYF2HMG2G"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -999,7 +999,7 @@
       "x": 0,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "a4M2O/fJtBiYVX4PiwnAOp"
   },
   {
     "__type__": "cc.LayoutComponent",
@@ -1027,7 +1027,7 @@
     "_verticalDirection": 1,
     "_horizontalDirection": 0,
     "_affectedByScale": false,
-    "_id": ""
+    "_id": "e5ebS+BMVMJ7+Pg04up/wc"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1091,7 +1091,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "fer3AwpA5M8qngLYGx1V/F"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -1111,7 +1111,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "c6u24rgKxO4YU3bwuzacK2"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -1147,7 +1147,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "ee+Cv2JrdMoKouEZTRf39w"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1211,7 +1211,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "01rVaY1elN45EKqx3vUQRP"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -1231,7 +1231,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "e8or5lOzlOuK8Ww7dCDtDd"
   },
   {
     "__type__": "cc.LabelComponent",
@@ -1270,7 +1270,7 @@
     "_isBold": false,
     "_isUnderline": false,
     "_cacheMode": 0,
-    "_id": ""
+    "_id": "76W2ln2wtMgaADsJ1buTZa"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1334,7 +1334,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "1bqTQIRVFLsaKvtAwOwyQr"
   },
   {
     "__type__": "cc.UITransformComponent",
@@ -1354,7 +1354,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "b0gVcSZvtGurADWixdnNi1"
   },
   {
     "__type__": "cc.SpriteComponent",
@@ -1390,7 +1390,7 @@
     "_fillRange": 0,
     "_isTrimmedMode": true,
     "_atlas": null,
-    "_id": ""
+    "_id": "92/4402olGeoKlrcAyeJad"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1425,7 +1425,7 @@
       "x": 0.5,
       "y": 0.5
     },
-    "_id": ""
+    "_id": "39tf+BLNBFrrof31jurEGB"
   },
   {
     "__type__": "57d15BvDjxLBLxQT6h/Vxab",
@@ -1553,6 +1553,6 @@
     },
     "fileId": "01nipPOcVJc4nzeMPnQF8F",
     "sync": false,
-    "_synced": true
+    "_synced": {}
   }
 ]

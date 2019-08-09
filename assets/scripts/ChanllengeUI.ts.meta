@@ -1,0 +1,15 @@
+{
+  "ver": "1.0.833",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "47aa1f5d-2eba-47fb-ac4e-826ccc45cc59",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ChanllengeUI.ts",
+    "importAsPlugin": false
+  }
+}

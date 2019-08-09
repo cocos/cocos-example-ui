@@ -1,4 +1,4 @@
-import { _decorator, Component, Prefab, ScrollViewComponent, Node } from "Cocos3D";
+import { _decorator, Component, Prefab, ScrollViewComponent, Node } from "cc";
 const { ccclass, property } = _decorator;
 import { HomeUI } from "./HomeUI";
 
@@ -40,6 +40,7 @@ export class BackPackUI extends Component {
     }
 
     hide() {
+        this.node.active = false;
         this.node.emit('fade-out');
         this.home.toggleHomeBtns(true);
     }
