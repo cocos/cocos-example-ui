@@ -1,8 +1,8 @@
-import { _decorator, Component, SpriteFrame, Prefab } from "Cocos3D";
+import { _decorator, Component, SpriteFrame, Prefab } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass('Item')
-class Item {
+export class Item {
     @property
     id = 0;
     @property

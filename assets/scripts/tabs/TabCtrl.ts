@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteComponent, Node, AnimationComponent, SpriteFrame } from "Cocos3D";
+import { _decorator, Component, SpriteComponent, Node, AnimationComponent, SpriteFrame } from "cc";
 import { MenuSidebar } from "./MenuSidebar";
 const { ccclass, property } = _decorator;
 

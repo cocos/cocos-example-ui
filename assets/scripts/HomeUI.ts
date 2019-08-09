@@ -1,7 +1,8 @@
-import { _decorator, Component, Node, AnimationComponent, Enum, eventManager } from "Cocos3D";
+import { _decorator, Component, Node, AnimationComponent, Enum, eventManager } from "cc";
 const { ccclass, property } = _decorator;
 import { BackPackUI } from "./BackPackUI";
 import { ShopUI } from "./ShopUI";
+import { ChallengeUI } from "./ChallengeUI";
 
 
 export enum PanelType{
@@ -21,6 +22,8 @@ export class HomeUI extends Component {
     backPackUI: BackPackUI | null = null;
     @property(ShopUI)
     shopUI: ShopUI | null = null;
+    @property(ChallengeUI)
+    challengeUI: ChallengeUI | null = null;
 
     public curPanel = PanelType.Home;
 
@@ -33,6 +36,7 @@ export class HomeUI extends Component {
     start() {
         this.backPackUI.init(this);
         this.shopUI.init(this, PanelType.Shop);
+        this.challengeUI.init(this);
         this.scheduleOnce(() => {
             this.menuAnim.play('menu_intro');
         }, 0.5);

@@ -1,4 +1,4 @@
-import { _decorator, Component, Vec3, eventManager, UIRenderComponent, Color } from "Cocos3D";
+import { _decorator, Component, Vec3, eventManager, UIRenderComponent, Color } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass

@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteFrame, Prefab, Node, eventManager } from "Cocos3D";
+import { _decorator, Component, SpriteFrame, Prefab, Node, eventManager } from "cc";
 import { TabCtrl } from "./TabCtrl";
 import { MainMenu } from "./MainMenu";
 const { ccclass, property } = _decorator;

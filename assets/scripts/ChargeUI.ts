@@ -1,4 +1,4 @@
-import { _decorator, Component, eventManager, Node } from "Cocos3D";
+import { _decorator, Component, eventManager, Node } from "cc";
 const { ccclass } = _decorator;
 import { HomeUI } from "./HomeUI";
 

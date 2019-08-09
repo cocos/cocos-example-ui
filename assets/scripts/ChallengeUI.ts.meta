@@ -1,0 +1,15 @@
+{
+  "ver": "1.0.833",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "6cf85d70-4f6c-4afb-b6a9-044a55d8f176",
+  "displayName": "",
+  "files": [
+    ".js"
+  ],
+  "subMetas": {},
+  "userData": {
+    "moduleId": "project:///assets/scripts/ChallengeUI.ts",
+    "importAsPlugin": false
+  }
+}

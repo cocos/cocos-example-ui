@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, eventManager } from "Cocos3D";
+import { _decorator, Component, Node, eventManager } from "cc";
 const { ccclass, property } = _decorator;
 import { MenuSidebar } from "./MenuSidebar";
 
