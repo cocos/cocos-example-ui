@@ -20,14 +20,14 @@ cc.Class({
     switchPanel (idx) {
         this.curPanelIdx = idx;
         let newX = this.curPanelIdx * -this.panelWidth;
-        let rollerMove = cc.moveTo(this.tabSwitchDuration, cc.p(newX, 0)).easing(cc.easeQuinticActionInOut());
+        let rollerMove = cc.moveTo(this.tabSwitchDuration, cc.v2(newX, 0)).easing(cc.easeQuinticActionInOut());
         let callback = cc.callFunc(this.onSwitchPanelFinished, this);
         this.roller.stopAllActions();
-        cc.eventManager.pauseTarget(this.roller);
+        cc.director.getScheduler().pauseTarget(this.roller);
         this.roller.runAction(cc.sequence(rollerMove, callback));
     },
 
     onSwitchPanelFinished () {
-        cc.eventManager.resumeTarget(this.roller);
+        cc.director.getScheduler().resumeTarget(this.roller);
     }
 });

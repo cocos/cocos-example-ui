@@ -1,9 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.0",
   "uuid": "528baa60-6d70-4e46-8cbb-bc0f97d1503e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
     "bg_gradient_mask": {
       "ver": "1.0.3",
@@ -13,11 +15,11 @@
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": 0,
-      "offsetY": 153.5,
+      "offsetY": 151.5,
       "trimX": 0,
       "trimY": 0,
       "width": 640,
-      "height": 284,
+      "height": 288,
       "rawWidth": 640,
       "rawHeight": 591,
       "borderTop": 0,

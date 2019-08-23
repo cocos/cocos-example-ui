@@ -1,9 +1,11 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.3.0",
   "uuid": "7ad4dfcb-f12d-42d8-b5df-726727ab9eda",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "platformSettings": {},
   "subMetas": {
     "murloc_green": {
       "ver": "1.0.3",
@@ -13,11 +15,11 @@
       "trimThreshold": 1,
       "rotated": false,
       "offsetX": -1.5,
-      "offsetY": -5,
+      "offsetY": -4.5,
       "trimX": 18,
-      "trimY": 28,
+      "trimY": 27,
       "width": 111,
-      "height": 104,
+      "height": 105,
       "rawWidth": 150,
       "rawHeight": 150,
       "borderTop": 0,
