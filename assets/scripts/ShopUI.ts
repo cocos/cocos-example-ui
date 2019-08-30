@@ -1,8 +1,9 @@
 
 import { _decorator, Component, SpriteComponent, Node, AnimationComponent } from "cc";
 const { ccclass, property } = _decorator;
-import { HomeUI, PanelType } from "./HomeUI";
+import { HomeUI } from "./HomeUI";
 import { ChargeUI } from "./ChargeUI";
+import { PanelType } from "./PanelType";
 
 @ccclass
 export class ShopUI extends Component {

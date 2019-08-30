@@ -3,14 +3,7 @@ const { ccclass, property } = _decorator;
 import { BackPackUI } from "./BackPackUI";
 import { ShopUI } from "./ShopUI";
 import { ChallengeUI } from "./ChallengeUI";
-
-
-export enum PanelType{
-    Home = -1,
-    Shop = -1,
-};
-
-Enum(PanelType);
+import { PanelType } from "./PanelType";
 
 @ccclass
 export class HomeUI extends Component {
