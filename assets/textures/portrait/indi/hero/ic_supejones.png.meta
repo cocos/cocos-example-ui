@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "8ee40652-ec27-44e8-baa0-a8e2cfa21a94",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "8ee40652-ec27-44e8-baa0-a8e2cfa21a94@spriteFrame",
+      "uuid": "8ee40652-ec27-44e8-baa0-a8e2cfa21a94@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "8ee40652-ec27-44e8-baa0-a8e2cfa21a94",
         "atlasUuid": ""
       },
-      "displayName": "ic_supejones"
+      "displayName": "ic_supejones",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "8ee40652-ec27-44e8-baa0-a8e2cfa21a94@spriteFrame"
+    "redirect": "8ee40652-ec27-44e8-baa0-a8e2cfa21a94@f9941"
   },
   "imported": true
 }

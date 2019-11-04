@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "0a0b300b-247b-46f6-bec7-0797a42cea12",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "0a0b300b-247b-46f6-bec7-0797a42cea12@texture",
+      "uuid": "0a0b300b-247b-46f6-bec7-0797a42cea12@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "0a0b300b-247b-46f6-bec7-0797a42cea12"
       },
-      "displayName": "snakeman_blue"
+      "displayName": "snakeman_blue",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "0a0b300b-247b-46f6-bec7-0797a42cea12@texture"
+    "redirect": "0a0b300b-247b-46f6-bec7-0797a42cea12@6c48a"
   },
   "imported": true
 }

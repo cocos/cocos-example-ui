@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7@texture",
+      "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "8defb5ec-4894-4a50-a9d8-eb33f64034a7"
       },
-      "displayName": "ic_长矛兵蓝色"
+      "displayName": "ic_长矛兵蓝色",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "8defb5ec-4894-4a50-a9d8-eb33f64034a7@texture"
+    "redirect": "8defb5ec-4894-4a50-a9d8-eb33f64034a7@6c48a"
   },
   "imported": true
 }

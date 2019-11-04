@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea@texture",
+      "uuid": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea"
       },
-      "displayName": "ic_bloodwind"
+      "displayName": "ic_bloodwind",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea@texture"
+    "redirect": "97ab5c2b-0b55-4bd9-8e72-4785f7f145ea@6c48a"
   },
   "imported": true
 }

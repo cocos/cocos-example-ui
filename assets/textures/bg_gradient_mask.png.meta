@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "528baa60-6d70-4e46-8cbb-bc0f97d1503e",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "528baa60-6d70-4e46-8cbb-bc0f97d1503e@spriteFrame",
+      "uuid": "528baa60-6d70-4e46-8cbb-bc0f97d1503e@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "528baa60-6d70-4e46-8cbb-bc0f97d1503e",
         "atlasUuid": ""
       },
-      "displayName": "bg_gradient_mask"
+      "displayName": "bg_gradient_mask",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "528baa60-6d70-4e46-8cbb-bc0f97d1503e@spriteFrame"
+    "redirect": "528baa60-6d70-4e46-8cbb-bc0f97d1503e@f9941"
   },
   "imported": true
 }

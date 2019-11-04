@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "e8694ba4-6656-423c-940b-cf867130a097",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "e8694ba4-6656-423c-940b-cf867130a097@spriteFrame",
+      "uuid": "e8694ba4-6656-423c-940b-cf867130a097@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "e8694ba4-6656-423c-940b-cf867130a097",
         "atlasUuid": ""
       },
-      "displayName": "banner_goumai_egypt"
+      "displayName": "banner_goumai_egypt",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "e8694ba4-6656-423c-940b-cf867130a097@spriteFrame"
+    "redirect": "e8694ba4-6656-423c-940b-cf867130a097@f9941"
   },
   "imported": true
 }

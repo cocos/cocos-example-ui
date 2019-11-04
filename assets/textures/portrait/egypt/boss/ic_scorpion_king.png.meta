@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "339b9300-7fba-477d-a345-ca0e0fa962b9",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "339b9300-7fba-477d-a345-ca0e0fa962b9@texture",
+      "uuid": "339b9300-7fba-477d-a345-ca0e0fa962b9@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "339b9300-7fba-477d-a345-ca0e0fa962b9"
       },
-      "displayName": "ic_scorpion_king"
+      "displayName": "ic_scorpion_king",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "339b9300-7fba-477d-a345-ca0e0fa962b9@texture"
+    "redirect": "339b9300-7fba-477d-a345-ca0e0fa962b9@6c48a"
   },
   "imported": true
 }

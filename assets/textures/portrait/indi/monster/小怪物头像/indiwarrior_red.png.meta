@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081@texture",
+      "uuid": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081"
       },
-      "displayName": "indiwarrior_red"
+      "displayName": "indiwarrior_red",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081@texture"
+    "redirect": "59b9d9c6-7c1e-4cd9-aaa9-5c5dac2d5081@6c48a"
   },
   "imported": true
 }
