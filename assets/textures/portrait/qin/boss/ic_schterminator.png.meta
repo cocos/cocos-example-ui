@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "946a7e47-1937-4e6f-a0e5-8f3d743327ac",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "946a7e47-1937-4e6f-a0e5-8f3d743327ac@texture",
+      "uuid": "946a7e47-1937-4e6f-a0e5-8f3d743327ac@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "946a7e47-1937-4e6f-a0e5-8f3d743327ac"
       },
-      "displayName": "ic_schterminator"
+      "displayName": "ic_schterminator",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "946a7e47-1937-4e6f-a0e5-8f3d743327ac@texture"
+    "redirect": "946a7e47-1937-4e6f-a0e5-8f3d743327ac@6c48a"
   },
   "imported": true
 }

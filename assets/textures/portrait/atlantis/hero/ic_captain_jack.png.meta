@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "19510e5a-675e-42b2-bed5-62266eda417b",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "19510e5a-675e-42b2-bed5-62266eda417b@spriteFrame",
+      "uuid": "19510e5a-675e-42b2-bed5-62266eda417b@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "19510e5a-675e-42b2-bed5-62266eda417b",
         "atlasUuid": ""
       },
-      "displayName": "ic_captain_jack"
+      "displayName": "ic_captain_jack",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "19510e5a-675e-42b2-bed5-62266eda417b@spriteFrame"
+    "redirect": "19510e5a-675e-42b2-bed5-62266eda417b@f9941"
   },
   "imported": true
 }

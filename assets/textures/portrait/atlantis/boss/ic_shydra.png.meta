@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3@texture",
+      "uuid": "84499e83-3aaa-4e00-829b-fa02182e9ca3@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "84499e83-3aaa-4e00-829b-fa02182e9ca3"
       },
-      "displayName": "ic_shydra"
+      "displayName": "ic_shydra",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "84499e83-3aaa-4e00-829b-fa02182e9ca3@texture"
+    "redirect": "84499e83-3aaa-4e00-829b-fa02182e9ca3@6c48a"
   },
   "imported": true
 }

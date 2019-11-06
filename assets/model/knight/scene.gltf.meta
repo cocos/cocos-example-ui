@@ -1,17 +1,14 @@
 {
-  "ver": "1.1.22",
+  "ver": "1.3.7",
   "importer": "gltf",
   "imported": true,
   "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0",
-  "displayName": "",
-  "files": [
-    ".gltf"
-  ],
+  "files": [],
   "subMetas": {
-    "knight_full_Material_0.mesh": {
-      "ver": "1.0.2",
+    "f605f": {
+      "ver": "1.0.5",
       "importer": "gltf-mesh",
-      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@knight_full_Material_0.mesh",
+      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@f605f",
       "imported": true,
       "files": [
         ".json",
@@ -20,14 +17,17 @@
       "subMetas": {},
       "userData": {
         "gltfIndex": 0
-      }
+      },
+      "id": "f605f",
+      "name": "knight_full_Material_0.mesh"
     },
-    "Take 001.animation": {
-      "ver": "1.0.10",
+    "73b7f": {
+      "ver": "1.0.13",
       "importer": "gltf-animation",
-      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@Take 001.animation",
+      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@73b7f",
       "imported": true,
       "files": [
+        ".bin",
         ".json"
       ],
       "subMetas": {},
@@ -39,12 +39,14 @@
           "to": 1
         },
         "events": []
-      }
+      },
+      "id": "73b7f",
+      "name": "Take 001.animation"
     },
-    "UnnamedSkeleton.skeleton": {
+    "438fe": {
       "ver": "1.0.0",
       "importer": "gltf-skeleton",
-      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@UnnamedSkeleton.skeleton",
+      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@438fe",
       "imported": true,
       "files": [
         ".json"
@@ -52,12 +54,14 @@
       "subMetas": {},
       "userData": {
         "gltfIndex": 0
-      }
+      },
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton"
     },
-    "UnnamedTexture.texture": {
+    "e39f7": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@UnnamedTexture.texture",
+      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@e39f7",
       "imported": true,
       "files": [
         ".json"
@@ -73,12 +77,14 @@
         "anisotropy": 1,
         "isUuid": false,
         "imageUuidOrDatabaseUri": "db://assets/model/knight/textures/Material_baseColor.png"
-      }
+      },
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture"
     },
-    "Material.material": {
+    "b4e6b": {
       "ver": "1.0.10",
       "importer": "gltf-material",
-      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@Material.material",
+      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@b4e6b",
       "imported": true,
       "files": [
         ".json"
@@ -86,12 +92,14 @@
       "subMetas": {},
       "userData": {
         "gltfIndex": 0
-      }
+      },
+      "id": "b4e6b",
+      "name": "Material.material"
     },
-    "scene.prefab": {
+    "d1932": {
       "ver": "1.0.8",
       "importer": "gltf-scene",
-      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@scene.prefab",
+      "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@d1932",
       "imported": true,
       "files": [
         ".json"
@@ -99,11 +107,12 @@
       "subMetas": {},
       "userData": {
         "gltfIndex": 0
-      }
+      },
+      "id": "d1932",
+      "name": "scene.prefab"
     }
   },
   "userData": {
-    "imageLocations": {},
     "normals": 2,
     "tangents": 2,
     "dumpMaterials": false,
@@ -121,29 +130,28 @@
         ]
       }
     ],
-    "redirect": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@scene.prefab",
+    "redirect": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@d1932",
     "assetFinder": {
       "meshes": [
-        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@knight_full_Material_0.mesh"
+        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@f605f"
       ],
       "skeletons": [
-        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@UnnamedSkeleton.skeleton"
-      ],
-      "images": [
-        {
-          "embeded": false,
-          "uuidOrDatabaseUri": "db://assets/model/knight/textures/Material_baseColor.png"
-        }
+        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@438fe"
       ],
       "textures": [
-        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@UnnamedTexture.texture"
+        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@e39f7"
       ],
       "materials": [
-        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@Material.material"
+        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@b4e6b"
       ],
       "scenes": [
-        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@scene.prefab"
+        "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@d1932"
       ]
-    }
+    },
+    "imageMetas": [
+      {
+        "uri": "db://assets/model/knight/textures/Material_baseColor.png"
+      }
+    ]
   }
 }

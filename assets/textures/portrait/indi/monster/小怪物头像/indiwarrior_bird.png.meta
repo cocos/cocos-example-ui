@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "b5e07d3f-fd13-43ad-8701-213da69bdd79",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "b5e07d3f-fd13-43ad-8701-213da69bdd79@texture",
+      "uuid": "b5e07d3f-fd13-43ad-8701-213da69bdd79@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "b5e07d3f-fd13-43ad-8701-213da69bdd79"
       },
-      "displayName": "indiwarrior_bird"
+      "displayName": "indiwarrior_bird",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "b5e07d3f-fd13-43ad-8701-213da69bdd79@texture"
+    "redirect": "b5e07d3f-fd13-43ad-8701-213da69bdd79@6c48a"
   },
   "imported": true
 }

@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "0d338f67-b5b2-43c3-8939-a75780d99089",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "0d338f67-b5b2-43c3-8939-a75780d99089@spriteFrame",
+      "uuid": "0d338f67-b5b2-43c3-8939-a75780d99089@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "0d338f67-b5b2-43c3-8939-a75780d99089",
         "atlasUuid": ""
       },
-      "displayName": "ic_spharaoh"
+      "displayName": "ic_spharaoh",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "0d338f67-b5b2-43c3-8939-a75780d99089@spriteFrame"
+    "redirect": "0d338f67-b5b2-43c3-8939-a75780d99089@f9941"
   },
   "imported": true
 }

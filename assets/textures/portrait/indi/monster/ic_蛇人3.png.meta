@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "d4c4ae33-ef49-4bd1-8f32-d149dc215517",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "d4c4ae33-ef49-4bd1-8f32-d149dc215517@texture",
+      "uuid": "d4c4ae33-ef49-4bd1-8f32-d149dc215517@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "d4c4ae33-ef49-4bd1-8f32-d149dc215517"
       },
-      "displayName": "ic_蛇人3"
+      "displayName": "ic_蛇人3",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "d4c4ae33-ef49-4bd1-8f32-d149dc215517@texture"
+    "redirect": "d4c4ae33-ef49-4bd1-8f32-d149dc215517@6c48a"
   },
   "imported": true
 }

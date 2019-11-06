@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0@texture",
+      "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "88eca76d-decc-4ee3-bb6c-4e5204221af0"
       },
-      "displayName": "ic_甲壳虫红"
+      "displayName": "ic_甲壳虫红",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "88eca76d-decc-4ee3-bb6c-4e5204221af0@texture"
+    "redirect": "88eca76d-decc-4ee3-bb6c-4e5204221af0@6c48a"
   },
   "imported": true
 }

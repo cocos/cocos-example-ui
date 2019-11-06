@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@spriteFrame",
+      "uuid": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "9f76084f-009a-4f33-aa6c-d08bd9a29c01",
         "atlasUuid": ""
       },
-      "displayName": "ic_mermaidqueen"
+      "displayName": "ic_mermaidqueen",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@spriteFrame"
+    "redirect": "9f76084f-009a-4f33-aa6c-d08bd9a29c01@f9941"
   },
   "imported": true
 }

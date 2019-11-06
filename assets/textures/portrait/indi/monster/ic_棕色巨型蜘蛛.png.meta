@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "10e5b9bb-8f58-467d-9e43-f99403e88f3b",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "texture": {
+    "6c48a": {
       "ver": "1.0.19",
       "importer": "texture",
-      "uuid": "10e5b9bb-8f58-467d-9e43-f99403e88f3b@texture",
+      "uuid": "10e5b9bb-8f58-467d-9e43-f99403e88f3b@6c48a",
       "imported": true,
       "files": [
         ".json"
@@ -25,7 +25,9 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "10e5b9bb-8f58-467d-9e43-f99403e88f3b"
       },
-      "displayName": "ic_棕色巨型蜘蛛"
+      "displayName": "ic_棕色巨型蜘蛛",
+      "id": "6c48a",
+      "name": "texture"
     }
   },
   "importer": "image",
@@ -35,7 +37,7 @@
   ],
   "userData": {
     "type": "texture",
-    "redirect": "10e5b9bb-8f58-467d-9e43-f99403e88f3b@texture"
+    "redirect": "10e5b9bb-8f58-467d-9e43-f99403e88f3b@6c48a"
   },
   "imported": true
 }

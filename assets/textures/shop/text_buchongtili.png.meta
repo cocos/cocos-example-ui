@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "d50ae28a-62c0-447a-8e0e-cd49842acfe5",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "d50ae28a-62c0-447a-8e0e-cd49842acfe5@spriteFrame",
+      "uuid": "d50ae28a-62c0-447a-8e0e-cd49842acfe5@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "d50ae28a-62c0-447a-8e0e-cd49842acfe5",
         "atlasUuid": ""
       },
-      "displayName": "text_buchongtili"
+      "displayName": "text_buchongtili",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "d50ae28a-62c0-447a-8e0e-cd49842acfe5@spriteFrame"
+    "redirect": "d50ae28a-62c0-447a-8e0e-cd49842acfe5@f9941"
   },
   "imported": true
 }

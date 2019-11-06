@@ -20,7 +20,6 @@
       }
     ],
     "_active": true,
-    "_level": 0,
     "_components": [],
     "_prefab": null,
     "_lpos": {
@@ -42,7 +41,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 1,
+    "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -68,7 +67,6 @@
       }
     ],
     "_active": true,
-    "_level": 1,
     "_components": [
       {
         "__id__": 11
@@ -97,7 +95,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 16,
+    "_layer": 1082130432,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -115,7 +113,6 @@
     },
     "_children": [],
     "_active": true,
-    "_level": 2,
     "_components": [
       {
         "__id__": 4
@@ -150,7 +147,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 16,
+    "_layer": 1082130432,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -199,7 +196,7 @@
     },
     "_sharedMaterial": null,
     "_spriteFrame": {
-      "__uuid__": "b730527c-3233-41c2-aaf7-7cdab58f9749@spriteFrame"
+      "__uuid__": "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
     },
     "_type": 1,
     "_fillType": 0,
@@ -273,7 +270,7 @@
     "itemName": "itemA",
     "itemPrice": 100,
     "iconSF": {
-      "__uuid__": "19510e5a-675e-42b2-bed5-62266eda417b@spriteFrame"
+      "__uuid__": "19510e5a-675e-42b2-bed5-62266eda417b@f9941"
     }
   },
   {
@@ -282,7 +279,7 @@
     "itemName": "itemB",
     "itemPrice": 200,
     "iconSF": {
-      "__uuid__": "d4ef7dc6-2b19-4e99-ad09-7f6c6870d582@spriteFrame"
+      "__uuid__": "d4ef7dc6-2b19-4e99-ad09-7f6c6870d582@f9941"
     }
   },
   {
@@ -291,7 +288,7 @@
     "itemName": "itemC",
     "itemPrice": 300,
     "iconSF": {
-      "__uuid__": "41a05f93-118a-4070-9f8b-eb81d9e70334@spriteFrame"
+      "__uuid__": "41a05f93-118a-4070-9f8b-eb81d9e70334@f9941"
     }
   },
   {
@@ -324,6 +321,15 @@
     "_enabled": true,
     "_priority": 0,
     "_targetTexture": null,
+    "_clearFlag": 0,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 0
+    },
+    "_renderMode": 0,
     "_id": "46mD8Pd+dDQoWkwvZ4k0Ed"
   },
   {

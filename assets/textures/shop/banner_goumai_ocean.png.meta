@@ -1,14 +1,14 @@
 {
-  "ver": "1.0.14",
+  "ver": "1.0.16",
   "uuid": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "subMetas": {
-    "spriteFrame": {
-      "ver": "1.0.6",
+    "f9941": {
+      "ver": "1.0.7",
       "importer": "sprite-frame",
-      "uuid": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78@spriteFrame",
+      "uuid": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78@f9941",
       "imported": true,
       "files": [
         ".json"
@@ -41,7 +41,9 @@
         "imageUuidOrDatabaseUri": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78",
         "atlasUuid": ""
       },
-      "displayName": "banner_goumai_ocean"
+      "displayName": "banner_goumai_ocean",
+      "id": "f9941",
+      "name": "spriteFrame"
     }
   },
   "importer": "image",
@@ -51,7 +53,7 @@
   ],
   "userData": {
     "type": "sprite-frame",
-    "redirect": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78@spriteFrame"
+    "redirect": "e174d60b-9c9b-4bc3-aad4-bbd8c14b2e78@f9941"
   },
   "imported": true
 }
