@@ -22,32 +22,6 @@
     "_active": true,
     "_components": [],
     "_prefab": null,
-    "_lpos": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_lrot": {
-      "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
-    },
-    "_lscale": {
-      "__type__": "cc.Vec3",
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "_layer": 1073741824,
-    "_euler": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
     "autoReleaseAssets": false,
     "_globals": {
       "__id__": 698
@@ -277,6 +251,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "b7fROkU2lCIrSudxt5PRGr"
   },
@@ -360,6 +335,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "75bEF9g+hIOIjH/bxL5Y+O"
   },
@@ -492,6 +468,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "3bBKaIk+BHobs4sTKcMcRe"
   },
@@ -851,6 +828,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "dfoKTdAoxBs6okAJx2vHty"
   },
@@ -934,6 +912,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "b1tHA18MFEYZH61vcHH7Ac"
   },
@@ -1066,6 +1045,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "eeaFtK2mhHkaXabTYnnZdq"
   },
@@ -1369,6 +1349,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "ceDXul+t1Nw4lSrcOcI3I4"
   },
@@ -1498,6 +1479,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "51FX5Pi5FNG64gsIfgCLwH"
   },
@@ -1603,6 +1585,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "a8m9p0XMFCPYhy9ZXE49Yo"
   },
@@ -1803,6 +1786,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "c8aEdi4x1FbqciODCrcvbI"
   },
@@ -1905,6 +1889,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "71F/1Ipo5OnaJx5X1hRZK0"
   },
@@ -2063,6 +2048,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "9da9ssiadFlYrsZPso+ICe"
   },
@@ -2119,6 +2105,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "10pKPSqG1AbY7LDfzxWYH0"
   },
@@ -2361,6 +2348,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "37R3yCx4BOK4+dIY9q0Aun"
   },
@@ -2463,6 +2451,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "66B5d9MeNGn7kLqXzSsVNp"
   },
@@ -2565,6 +2554,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "13jt+tqDtDG5GZZ3Q/99TE"
   },
@@ -2717,6 +2707,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "75RnJ11lNPgo+crcx0UseP"
   },
@@ -2773,6 +2764,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "81T05JJTFAw4JY++Y/cGwa"
   },
@@ -2881,6 +2873,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "0cZmCnEltENKat/x4rYPyQ"
   },
@@ -3128,6 +3121,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "e50OfllvJELbm7NJE0UTyy"
   },
@@ -3184,6 +3178,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "433uQAtzVNQbj6i4Rnw0Zd"
   },
@@ -3411,6 +3406,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "829mfNdHdOWJcaRzEhqRRV"
   },
@@ -3467,6 +3463,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "devNqU+qZFc5THi2FSp2pQ"
   },
@@ -3697,6 +3694,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "1bkwHHRcxFGrGJZKG6loDk"
   },
@@ -3855,6 +3853,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "ddT1DwftVGfI9jsCHGhnQi"
   },
@@ -3911,6 +3910,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "a0P0HHeu9At5FgmM7aYQjt"
   },
@@ -4189,6 +4189,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "7cTuRinKpLeJ/g5N7D0Fv2"
   },
@@ -4245,6 +4246,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "77jw90DLtJhpvB4wgTKKNJ"
   },
@@ -4679,6 +4681,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "f4YaNrXCVE7Z/5u1kLUZEG"
   },
@@ -4735,6 +4738,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "8d1oiFCnZIv6LgEG32/3Dm"
   },
@@ -4887,6 +4891,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "3bXuivgxhA/qyt46pP1Hou"
   },
@@ -4943,6 +4948,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "cdqoN1Gt9CDoYY6pD/rZT0"
   },
@@ -5282,6 +5288,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "9dtPwW8UVGe6OpbBFq/3JE"
   },
@@ -5413,6 +5420,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "dfPUCid9FJGbnarM/Q6KWa"
   },
@@ -5761,6 +5769,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "47lzcc55pI/Z19DOLyrubu"
   },
@@ -5817,6 +5826,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "86J0npvCdMFYvd+9QbcPqo"
   },
@@ -5969,6 +5979,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "988KwCWPFMaITKjxhpSZCc"
   },
@@ -6025,6 +6036,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "f4whyv5SJEyZP53i2qYjQF"
   },
@@ -6364,6 +6376,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "bcbi3QSPpEzKpiIs2pN/eM"
   },
@@ -6495,6 +6508,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "13ALib6xhEwYrBzr93eVoM"
   },
@@ -6843,6 +6857,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "72crfrKYJFVbxsgzCzPhaR"
   },
@@ -6899,6 +6914,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "a5GL1brFlGX4fJqQsF/xpH"
   },
@@ -7051,6 +7067,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "4bkemgt1FNoq+mogPE2zjV"
   },
@@ -7107,6 +7124,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "4dU6fiiw5Bgpezm4Nvvw7B"
   },
@@ -7446,6 +7464,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "75gR/S1N5N8oipzRlDoCAC"
   },
@@ -7577,6 +7596,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "bcHKxdIJ1Ms7cLMQihDevm"
   },
@@ -7857,6 +7877,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "7czkDnJLdCd7n7xLVkfjgF"
   },
@@ -7913,6 +7934,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "81RNLU6/pCi4e8BanrMZqI"
   },
@@ -8140,6 +8162,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "a0Uy7VOGlHQpFn4Awdjh4+"
   },
@@ -8196,6 +8219,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "435ZKrJrJBqrqOiYI5/aOY"
   },
@@ -8423,6 +8447,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "95k+R3PL1Hk6oxh9QPofhC"
   },
@@ -8479,6 +8504,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "97Hvri5LVIcL7ThtTSK+2W"
   },
@@ -8706,6 +8732,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "e2hqR8bMtJlbjUPHlNu6DP"
   },
@@ -8762,6 +8789,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "d89DzjuzNKU62VlSUQGP2M"
   },
@@ -8887,6 +8915,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "99NynVunFAL49lvM/G1Y2X"
   },
@@ -9069,6 +9098,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "5ea4waCwBIxIQnA0eBtbS2"
   },
@@ -9125,6 +9155,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "c2hO+JqcFI746CavW3Li4/"
   },
@@ -9574,6 +9605,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "471a4OoVNLs556HlTSmJn/"
   },
@@ -9733,6 +9765,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "3bwiVomDpIs4ipg36MYfoB"
   },
@@ -9918,6 +9951,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "edCVrhqWFJsK+P/7ixVKXo"
   },
@@ -10077,6 +10111,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "aazmF34UdPeKSSwl/lgkaF"
   },
@@ -10262,6 +10297,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "66tn4cGytDGK1Dsvzr2tsD"
   },
@@ -10421,6 +10457,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "3b3LpSJI5B/JuHIyQm7s2F"
   },
@@ -10618,6 +10655,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "31LVsAhNBMfLDQ5ulzieTM"
   },
@@ -11082,6 +11120,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "3a4hGldTxA1K2Tg93SdedI"
   },
@@ -11138,6 +11177,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "c1inldOw5Dx78/R7++jnEG"
   },
@@ -11211,6 +11251,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "56IySaw79LnIsvIeopM3sF"
   },
@@ -11430,6 +11471,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "1bNUnV1ltDUqSbPijXjieT"
   },
@@ -11894,6 +11936,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "45gYNyAMBP3YhJ1ld3F6t5"
   },
@@ -11950,6 +11993,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "aeyCM4nWJDP5xkEuWkIZLA"
   },
@@ -12023,6 +12067,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "d5jxHIgShPqoXoX4XxzE2k"
   },
@@ -12183,6 +12228,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "06ywumb2JI5Ie9AYiA3cmC"
   },
@@ -12599,6 +12645,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "bdG5SQBctPJLhEndU7egWc"
   },
@@ -12776,6 +12823,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "1bkfZiwkRH26wSVVGbvjnA"
   },
@@ -12904,6 +12952,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "4ewe2LR8xBHKIBKHapYyQi"
   },
@@ -13133,6 +13182,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "8dMC3tQtFAtavXuYHUD5pP"
   },
@@ -13216,6 +13266,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "f7JJvgCLRCgaF3HvzepAtT"
   },
@@ -13465,6 +13516,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "0bZ8n2NbVLva/wUat8Qprp"
   },
@@ -13567,6 +13619,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "c6RzwQnJ5GeIrRWfHCVY45"
   },
@@ -13669,6 +13722,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "78JPKYkTlFpIhhjJMSuO4y"
   },
@@ -13771,6 +13825,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "cdNuwsxXtM/bjGl5x0bOeJ"
   },
@@ -13923,6 +13978,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "d9G7iNKTNFc4FmTXez3mQb"
   },
@@ -13979,6 +14035,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "54SqcVC1lHxLSOAj6jWLhK"
   },
@@ -14137,6 +14194,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "92DcZP32VIg6yfftZWG/2t"
   },
@@ -14193,6 +14251,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "baYyimC/NDvKA5oUkWjVsk"
   },
@@ -14426,6 +14485,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "281tNLMZFJT7QSa3Cm68rb"
   },
@@ -14482,6 +14542,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "a1UqB0jzZLzpd+H5GijnBU"
   },
@@ -14662,6 +14723,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "87h+HEmKxJSr7McqyHsRZa"
   },
@@ -14945,6 +15007,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "5fT0lFs/VDjb+d+vcHsUZa"
   },
@@ -15001,6 +15064,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "2aO1OYXj9MRpp0CK2hratK"
   },
@@ -15470,6 +15534,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "b1tK1tIitFEIxa23plunB1"
   },
@@ -15526,6 +15591,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "43/awvp2VDI4sFuIwkMNS2"
   },
@@ -15783,6 +15849,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "e7P3QNQXxNZKi8IroH4EXj"
   },
@@ -15839,6 +15906,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "f9AmyFW6JOFYdUtd9c9DFF"
   },
@@ -16096,6 +16164,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "efjnzBH2NCBaVMQYh+4CIa"
   },
@@ -16152,6 +16221,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "77oHsX73lMD40Te48FLpMu"
   },
@@ -16473,6 +16543,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "5fda5inLRFyLCjY9pzHlFd"
   },
@@ -16556,6 +16627,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "1eWd1E9lhPN62HgV3caabg"
   },
@@ -16794,6 +16866,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "3aEnZuojlLXZddlH+z0Zli"
   },
@@ -16877,6 +16950,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "1dOVa+4Y5PH4AzmvnWSJZD"
   },
@@ -17115,6 +17189,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "64K0ZLGclHr4bx1w/hThT+"
   },
@@ -17198,6 +17273,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "061yNwj/VKXpkKgyKheUeu"
   },
@@ -17436,6 +17512,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "a2hfTHKi5IX6gZ3D980gGH"
   },
@@ -17519,6 +17596,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "441aSQkQtBkIt0CfF4sfww"
   },
@@ -17757,6 +17835,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "f2kvxvNPVHmoELAsUeQLD7"
   },
@@ -17840,6 +17919,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "0e4l4+CfNGsL3BLO9ehVer"
   },
@@ -18075,6 +18155,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "16udPfJRhEN7/UZKEa4NSB"
   },
@@ -18351,6 +18432,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "c0LrL76xxNo7y4V9xfX+co"
   },
@@ -18572,6 +18654,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "canRr4sAlF5KbZ614+bn/f"
   },
@@ -18779,6 +18862,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "47bdllA0pHDrWZUJIFW6XE"
   },
@@ -19042,6 +19126,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "0bYU4d4MxFYLFI6xJRWdzV"
   },
@@ -19144,6 +19229,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "46lsTYK1dNOrMzUY+42rWD"
   },
@@ -19246,6 +19332,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "c9yOvQRnxFSqWuffKPRHDN"
   },
@@ -19398,6 +19485,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "5aAvjeb8FMc77Pkiw38/Tq"
   },
@@ -19454,6 +19542,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "92y0Xu685A3J0LMcLw8r6u"
   },
@@ -19559,6 +19648,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "79euPhpBROk6Uc7VlRWeKW"
   },
@@ -19842,6 +19932,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "42kPxVf4xF5LMULu6TPU4Z"
   },
@@ -19898,6 +19989,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "f3HROMU/1LNbt3lDdhu5bM"
   },
@@ -22254,6 +22346,7 @@
       }
     ],
     "_visFlags": 0,
+    "_enableDynamicBatching": false,
     "_mesh": {
       "__uuid__": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@f605f"
     },
@@ -22735,6 +22828,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "02ULWnPWtGNbohPL1dAqrq"
   },
@@ -22956,6 +23050,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "a23crXv+xEw5wGpF+P2r+R"
   },
@@ -23163,6 +23258,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "dediXR7i1K5KXfv04s4LhC"
   },
@@ -23390,6 +23486,7 @@
     "_fillStart": 0,
     "_fillRange": 0,
     "_isTrimmedMode": true,
+    "_useGrayscale": false,
     "_atlas": null,
     "_id": "bfxaWcS3pOWa9VxMKotXmr"
   },
@@ -23600,7 +23697,7 @@
     "_enabled": true,
     "_priority": 0,
     "_targetTexture": null,
-    "_clearFlag": 0,
+    "_clearFlag": 7,
     "_color": {
       "__type__": "cc.Color",
       "r": 0,
