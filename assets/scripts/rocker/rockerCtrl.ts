@@ -42,6 +42,7 @@ export class RockerCtrl extends Component {
     }
 
     touchStart(touch: Touch){
+        this.changeState('cocos_anim_run');
         touch.getUILocation(this._startPos);
         const distance = this._startPos.length();
         if (distance < TOUCH_RADIUS) {
@@ -58,7 +59,6 @@ export class RockerCtrl extends Component {
             return;
         }
 
-        this.changeState('cocos_anim_run');
         touch.getUILocation(this._movePos);
         Vec2.subtract(_tempDelta, this._movePos, this._touchPos);
         // 计算角色的整体旋转值
