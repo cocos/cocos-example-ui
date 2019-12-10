@@ -269,6 +269,7 @@
       "__id__": 6
     },
     "_enabled": true,
+    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 100,
@@ -289,7 +290,6 @@
       "__id__": 6
     },
     "_enabled": true,
-    "_priority": 0,
     "_srcBlendFactor": 2,
     "_dstBlendFactor": 4,
     "_color": {
@@ -372,6 +372,7 @@
       "__id__": 9
     },
     "_enabled": true,
+    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 20,
@@ -392,7 +393,6 @@
       "__id__": 9
     },
     "_enabled": true,
-    "_priority": 0,
     "_srcBlendFactor": 2,
     "_dstBlendFactor": 4,
     "_color": {
@@ -475,6 +475,7 @@
       "__id__": 12
     },
     "_enabled": true,
+    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 20,
@@ -495,7 +496,6 @@
       "__id__": 12
     },
     "_enabled": true,
-    "_priority": 0,
     "_srcBlendFactor": 2,
     "_dstBlendFactor": 4,
     "_color": {
@@ -578,6 +578,7 @@
       "__id__": 15
     },
     "_enabled": true,
+    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 20,
@@ -598,7 +599,6 @@
       "__id__": 15
     },
     "_enabled": true,
-    "_priority": 0,
     "_srcBlendFactor": 2,
     "_dstBlendFactor": 4,
     "_color": {
@@ -681,6 +681,7 @@
       "__id__": 18
     },
     "_enabled": true,
+    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 20,
@@ -701,7 +702,6 @@
       "__id__": 18
     },
     "_enabled": true,
-    "_priority": 0,
     "_srcBlendFactor": 2,
     "_dstBlendFactor": 4,
     "_color": {
@@ -738,6 +738,7 @@
       "__id__": 5
     },
     "_enabled": true,
+    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 130,
@@ -758,6 +759,7 @@
       "__id__": 4
     },
     "_enabled": true,
+    "_priority": 0,
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 640,
@@ -4356,7 +4358,7 @@
       "__id__": 142
     },
     "_enabled": true,
-    "coodinateDataEvents": [
+    "syncEvents": [
       {
         "__id__": 144
       }
