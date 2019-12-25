@@ -1,38 +1,38 @@
-import { _decorator, Component, Node, Prefab, LabelComponent, instantiate, Vec3, UICoordinateTrackerComponent, UITransformComponent } from "cc";
+import { _decorator, Component, Node, Prefab, instantiate, Vec3, CameraComponent } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("HeadScale")
 export class HeadScale extends Component {
     @property(Node)
     target: Node = null;
-    @property(Prefab)
-    aim: Prefab = null;
+    @property(CameraComponent)
+    camera: CameraComponent = null;
+    @property
+    distance = 0;
 
-    private _mapNode: Node = null;
-    private _mapUIComp: UICoordinateTrackerComponent = null;
+    private _lastWpos: Vec3 = new Vec3();
+    private _pos: Vec3 = new Vec3();
 
-    onLoad () {
-        if(this.aim){
-            const node = instantiate(this.aim) as Node;
-            node.parent = this.target;
-            this._mapNode = node;
+    update(){
+        const wpos = this.target.worldPosition;
+        // @ts-ignore
+        if (!this.camera!._camera || this._lastWpos.equals(wpos)) {
+            return;
         }
 
-        this._mapUIComp = this.getComponent(UICoordinateTrackerComponent);
+        this._lastWpos.set(wpos);
+        const camera = this.camera!;
+        // [HACK]
+        // @ts-ignore
+        camera._camera.update();
+        camera.convertToUINode(wpos, this.node.parent!, this._pos);
+        this.node.setPosition(this._pos);
+        // @ts-ignore
+        Vec3.transformMat4(this._pos, this.target.worldPosition, camera._camera!.matView);
+
+        const ratio = this.distance / Math.abs(this._pos.z);
+
+        const value = Math.floor(ratio * 100) / 100;
+        this.node.setScale(value, value, 1);
     }
-
-    scale(pos: Vec3, ratio: number){
-        if(this._mapNode){
-            this._mapNode.setWorldPosition(pos);
-
-            if (this._mapUIComp && this._mapUIComp.useScale) {
-                const value = Math.floor(ratio * 100) / 100;
-                this._mapNode.setScale(value, value, 1);
-            }
-        }
-    }
-
-    // update (deltaTime: number) {
-    //     // Your update function goes here.
-    // }
 }

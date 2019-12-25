@@ -1,14 +1,15 @@
 {
-  "ver": "1.0.844",
+  "ver": "2.0.12",
   "importer": "typescript",
   "imported": true,
   "uuid": "7b93d422-45f5-4472-af8e-bd9a005669ce",
   "files": [
-    ".js"
+    ".js",
+    ".trans"
   ],
   "subMetas": {},
   "userData": {
-    "moduleId": "project:///assets/scripts/rocker/head-scale.ts",
-    "importAsPlugin": false
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/rocker/head-scale.js"
   }
 }
