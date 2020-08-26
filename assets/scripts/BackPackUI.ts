@@ -1,4 +1,4 @@
-import { _decorator, Component, Prefab, ScrollViewComponent, Node } from "cc";
+import { _decorator, Component, Prefab, ScrollViewComponent, Node, instantiate } from "cc";
 const { ccclass, property } = _decorator;
 import { HomeUI } from "./HomeUI";
 
@@ -28,8 +28,8 @@ export class BackPackUI extends Component {
     }
 
     addHeroSlot() {
-        let heroSlot = cc.instantiate(this.slotPrefab);
-        this.scrollView.content.addChild(heroSlot);
+        let heroSlot = instantiate(this.slotPrefab);
+        this.scrollView.content.node.addChild(heroSlot);
         return heroSlot;
     }
 
