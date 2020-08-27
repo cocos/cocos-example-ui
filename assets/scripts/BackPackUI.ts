@@ -29,7 +29,7 @@ export class BackPackUI extends Component {
 
     addHeroSlot() {
         let heroSlot = instantiate(this.slotPrefab);
-        this.scrollView.content.node.addChild(heroSlot);
+        this.scrollView.content.addChild(heroSlot);
         return heroSlot;
     }
 
