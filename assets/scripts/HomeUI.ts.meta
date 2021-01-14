@@ -1,12 +1,9 @@
 {
-  "ver": "1.0.844",
+  "ver": "4.0.21",
   "importer": "typescript",
   "imported": true,
   "uuid": "edc2aee2-b5da-4343-9043-63eb155a4c09",
-  "displayName": "",
-  "files": [
-    ".js"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/HomeUI.ts",

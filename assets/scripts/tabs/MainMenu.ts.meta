@@ -1,12 +1,9 @@
 {
-  "ver": "1.0.844",
+  "ver": "4.0.21",
   "importer": "typescript",
   "imported": true,
   "uuid": "b6ee5850-f54b-4174-8875-018c3653eda0",
-  "displayName": "",
-  "files": [
-    ".js"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/tabs/MainMenu.ts",

@@ -1,26 +1,26 @@
-import { _decorator, Component, Node, Prefab, instantiate, Vec3, CameraComponent } from "cc";
+import { _decorator, Component, Node, Prefab, instantiate, Vec3, Camera } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("HeadScale")
 export class HeadScale extends Component {
     @property(Node)
-    target: Node = null;
-    @property(CameraComponent)
-    camera: CameraComponent = null;
+    target: Node = null!;
+    @property(Camera)
+    camera: Camera = null!;
     @property
     distance = 0;
 
-    private _lastWpos: Vec3 = new Vec3();
+    private _lastWPos: Vec3 = new Vec3();
     private _pos: Vec3 = new Vec3();
 
     update(){
         const wpos = this.target.worldPosition;
         // @ts-ignore
-        if (!this.camera!._camera || this._lastWpos.equals(wpos)) {
+        if (!this.camera!._camera || this._lastWPos.equals(wpos)) {
             return;
         }
 
-        this._lastWpos.set(wpos);
+        this._lastWPos.set(wpos);
         const camera = this.camera!;
         // [HACK]
         // @ts-ignore

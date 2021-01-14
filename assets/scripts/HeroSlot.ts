@@ -1,4 +1,4 @@
-import { _decorator, Component, LabelComponent, SpriteComponent, SpriteFrame } from "cc";
+import { _decorator, Component, Label, Sprite, SpriteFrame } from "cc";
 const { ccclass, property } = _decorator;
 
 const getRandomInt = function (min: number, max: number) {
@@ -16,18 +16,18 @@ export class HeroSlot extends Component {
     public sfHeroes: SpriteFrame[] = [];
      @property([SpriteFrame])
     public sfBorders: SpriteFrame[] = [];
-    @property(LabelComponent)
-    public labelLevel: LabelComponent | null = null;
-    @property(SpriteComponent)
-    public spHero: SpriteComponent | null = null;
-    @property(SpriteComponent)
-    public spRank: SpriteComponent | null = null;
-    @property(SpriteComponent)
-    public spAttribute: SpriteComponent | null = null;
-    @property(SpriteComponent)
-    public spBorder: SpriteComponent | null = null;
-    @property([SpriteComponent])
-    public spStars: SpriteComponent[] = [];
+    @property(Label)
+    public labelLevel: Label = null!;
+    @property(Sprite)
+    public spHero: Sprite = null!;
+    @property(Sprite)
+    public spRank: Sprite = null!;
+    @property(Sprite)
+    public spAttribute: Sprite = null!;
+    @property(Sprite)
+    public spBorder: Sprite = null!;
+    @property([Sprite])
+    public spStars: Sprite[] = [];
 
     // use this for initialization
     onLoad() {

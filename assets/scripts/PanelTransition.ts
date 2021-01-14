@@ -1,4 +1,4 @@
-import { _decorator, Component, Vec3, eventManager, UIRenderComponent, Color } from "cc";
+import { _decorator, Component, Vec3, eventManager, Color, UIRenderable } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass
@@ -26,7 +26,7 @@ export class PanelTransition extends Component {
         eventManager.pauseTarget(this.node, true);
         this.node.setPosition(0, 0, 0);
         this.node.setScale(2, 2, 2);
-        const renderComp = this.node.getComponent(UIRenderComponent);
+        const renderComp = this.node.getComponent(UIRenderable)!;
         this._color.set(renderComp.color);
         this._color.a = 0;
         renderComp.color = this._color;

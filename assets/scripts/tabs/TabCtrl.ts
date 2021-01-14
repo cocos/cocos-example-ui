@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteComponent, Node, AnimationComponent, SpriteFrame } from "cc";
+import { _decorator, Component, Sprite, Node, Animation, SpriteFrame } from "cc";
 import { MenuSidebar } from "./MenuSidebar";
 const { ccclass, property } = _decorator;
 
@@ -12,12 +12,12 @@ export interface ITabCtrlInfo{
 export class TabCtrl extends Component {
     @property
     public idx = 0;
-    @property(SpriteComponent)
-    public icon: SpriteComponent | null = null;
+    @property(Sprite)
+    public icon: Sprite | null = null;
     @property(Node)
     public arrow: Node | null = null;
-    @property(AnimationComponent)
-    public anim: AnimationComponent | null = null;
+    @property(Animation)
+    public anim: Animation | null = null;
 
     public sidebar: MenuSidebar | null = null;
 

@@ -1,11 +1,9 @@
 {
-  "ver": "1.0.844",
+  "ver": "4.0.21",
   "importer": "typescript",
   "imported": true,
   "uuid": "03934756-ae55-4a2c-921b-a4f0850a5cf7",
-  "files": [
-    ".js"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/rocker/rockerCtrl.ts",

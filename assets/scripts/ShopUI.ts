@@ -1,5 +1,5 @@
 
-import { _decorator, Component, SpriteComponent, Node, AnimationComponent } from "cc";
+import { _decorator, Component, Sprite, Node, Animation } from "cc";
 const { ccclass, property } = _decorator;
 import { HomeUI } from "./HomeUI";
 import { ChargeUI } from "./ChargeUI";
@@ -7,17 +7,17 @@ import { PanelType } from "./PanelType";
 
 @ccclass
 export class ShopUI extends Component {
-    @property(AnimationComponent)
-    public anim: AnimationComponent | null = null;
-    @property(SpriteComponent)
-    public figure: SpriteComponent | null = null;
+    @property(Animation)
+    public anim: Animation = null!;
+    @property(Sprite)
+    public figure: Sprite = null!;
     @property(Node)
-    public btnsNode: Node | null = null;
+    public btnsNode: Node = null!;
     @property(ChargeUI)
-    public chargeUI: ChargeUI | null = null;
+    public chargeUI: ChargeUI = null!;
 
     private _panelType = PanelType.Home;
-    private _home: HomeUI | null = null;
+    private _home: HomeUI = null!;
 
     // use this for initialization
     init(home: HomeUI, panelType: PanelType) {

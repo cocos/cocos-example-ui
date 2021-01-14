@@ -4,8 +4,8 @@ import { HomeUI } from "./HomeUI";
 
 @ccclass
 export class ChargeUI extends Component {
-    public home: HomeUI | null = null;
-    public parentBtns: Node | null = null;
+    public home: HomeUI = null!;
+    public parentBtns: Node = null!;
     init(home: HomeUI, parentBtns: Node) {
         this.home = home;
         this.parentBtns = parentBtns;

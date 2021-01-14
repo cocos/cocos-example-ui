@@ -1,12 +1,9 @@
 {
-  "ver": "1.0.844",
+  "ver": "4.0.21",
   "importer": "typescript",
   "imported": true,
   "uuid": "0d6f9406-2f8f-456b-8506-545f5f999add",
-  "displayName": "",
-  "files": [
-    ".js"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/ShopUI.ts",

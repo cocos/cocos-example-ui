@@ -1,12 +1,9 @@
 {
-  "ver": "1.0.844",
+  "ver": "4.0.21",
   "importer": "typescript",
   "imported": true,
   "uuid": "a254bdaf-9915-45af-99c5-84247b5b0c1b",
-  "displayName": "",
-  "files": [
-    ".js"
-  ],
+  "files": [],
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/PanelTransition.ts",

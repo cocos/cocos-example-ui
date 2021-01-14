@@ -4,11 +4,11 @@ const { ccclass, property } = _decorator;
 
 @ccclass("ChallengeUI")
 export class ChallengeUI extends Component {
-    public home: HomeUI | null = null;
+    public home: HomeUI = null!;
     @property(Node)
-    roleClkArea: Node = null;
+    roleClkArea: Node = null!;
     @property(Node)
-    role: Node = null;
+    role: Node = null!;
 
     private _rot = new Vec3();
 

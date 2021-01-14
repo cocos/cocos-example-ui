@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, systemEvent, SystemEventType, Touch, Vec2, Vec3, loader, SpriteComponent, math, AnimationComponent } from "cc";
+import { _decorator, Component, Node, systemEvent, SystemEventType, Touch, Vec2, Vec3, loader, Sprite, math, Animation } from "cc";
 const { ccclass, property } = _decorator;
 
 // 操作半径
@@ -12,9 +12,9 @@ const MOVE_DELTA = 0.2;
 @ccclass("RockerCtrl")
 export class RockerCtrl extends Component {
     @property(Node)
-    ctrlSprite: Node = null;
+    ctrlSprite: Node = null!;
     @property(Node)
-    role: Node = null;
+    role: Node = null!;
     @property(Vec3)
     originPos = new Vec3();
 
@@ -22,14 +22,14 @@ export class RockerCtrl extends Component {
     private _touchPos = new Vec2();
     private _startPos = new Vec2();
     private _movePos = new Vec2();
-    private _animComp: AnimationComponent = null;
+    private _animComp: Animation = null!;
     private _animState = 'idle';
 
     start () {
         this.ctrlSprite.setPosition(this.originPos);
         _tempPos.set(0, 90, 0);
         this.role.eulerAngles = _tempPos;
-        this._animComp = this.role.getComponentInChildren(AnimationComponent);
+        this._animComp = this.role.getComponentInChildren(Animation)!;
         systemEvent.on(SystemEventType.TOUCH_START, this.touchStart, this);
         systemEvent.on(SystemEventType.TOUCH_MOVE, this.touchMove, this);
         systemEvent.on(SystemEventType.TOUCH_END, this.touchEnd, this);

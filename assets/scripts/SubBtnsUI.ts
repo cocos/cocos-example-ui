@@ -1,16 +1,16 @@
-import { _decorator, Component, AnimationComponent, ButtonComponent, Node } from "cc";
+import { _decorator, Component, Animation, Button, Node } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass
 export class SubBtnsUI extends Component {
-    @property(AnimationComponent)
-    public subBtnsAnim: AnimationComponent | null = null;
-    @property(ButtonComponent)
-    public btnShowSub: ButtonComponent | null = null;
-    @property(ButtonComponent)
-    public btnHideSub: ButtonComponent | null = null;
+    @property(Animation)
+    public subBtnsAnim: Animation = null!;
+    @property(Button)
+    public btnShowSub: Button = null!;
+    @property(Button)
+    public btnHideSub: Button = null!;
     @property(Node)
-    public btnContainer: Node | null = null;
+    public btnContainer: Node = null!;
 
     // use this for initialization
     onLoad() {
@@ -27,7 +27,7 @@ export class SubBtnsUI extends Component {
         this.subBtnsAnim.play('sub_fold');
     }
 
-    onFinishAnim(finishFold) {
+    onFinishAnim(finishFold: boolean) {
         this.btnShowSub.node.active = finishFold;
         this.btnHideSub.node.active = !finishFold;
     }

@@ -1,4 +1,5 @@
-import { _decorator, Component, SpriteFrame, Prefab } from "cc";
+import { _decorator, Component, SpriteFrame, Prefab, instantiate } from "cc";
+import { ItemTemplate } from "./ItemTemplate";
 const { ccclass, property } = _decorator;
 
 @ccclass('Item')
@@ -10,7 +11,7 @@ export class Item {
     @property
     itemPrice = 0;
     @property(SpriteFrame)
-    iconSF: SpriteFrame | null = null;
+    iconSF: SpriteFrame = null!;
 }
 
 @ccclass
@@ -18,14 +19,14 @@ export class ItemList extends Component {
     @property([Item])
     items: Item[] = [];
     @property(Prefab)
-    itemPrefab: Prefab | null = null;
+    itemPrefab: Prefab = null!;
 
     onLoad() {
         for (var i = 0; i < this.items.length; ++i) {
-            var item = cc.instantiate(this.itemPrefab);
+            var item = instantiate(this.itemPrefab);
             var data = this.items[i];
             this.node.addChild(item);
-            item.getComponent('ItemTemplate').init(data);
+            (item.getComponent('ItemTemplate') as ItemTemplate)!.init(data);
         }
     }
 }

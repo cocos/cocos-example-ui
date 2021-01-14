@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteComponent, LabelComponent } from "cc";
+import { _decorator, Component, Sprite, Label } from "cc";
 import { Item } from "./ItemList";
 const { ccclass, property } = _decorator;
 
@@ -6,12 +6,12 @@ const { ccclass, property } = _decorator;
 export class ItemTemplate extends Component {
     @property
     public id = 0;
-    @property(SpriteComponent)
-    public icon: SpriteComponent | null = null;
-    @property(LabelComponent)
-    public itemName: LabelComponent | null = null;
-    @property(LabelComponent)
-    public itemPrice: LabelComponent | null = null;
+    @property(Sprite)
+    public icon: Sprite = null!;
+    @property(Label)
+    public itemName: Label = null!;
+    @property(Label)
+    public itemPrice: Label = null!;
 
     // data: {id,iconSF,itemName,itemPrice}
     init(data: Item) {

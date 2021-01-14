@@ -1,4 +1,4 @@
-import { _decorator, Component, Prefab, ScrollViewComponent, Node, instantiate } from "cc";
+import { _decorator, Component, Prefab, ScrollView, Node, instantiate } from "cc";
 const { ccclass, property } = _decorator;
 import { HomeUI } from "./HomeUI";
 
@@ -7,15 +7,15 @@ export class BackPackUI extends Component {
     @property({
         type: Prefab
     })
-    slotPrefab: Prefab | null = null;
+    slotPrefab: Prefab = null!;
     @property({
-        type: ScrollViewComponent
+        type: ScrollView
     })
-    scrollView: ScrollViewComponent | null = null;
+    scrollView: ScrollView = null!;
     @property
     totalCount = 0;
 
-    public home: HomeUI | null = null;
+    public home: HomeUI = null!;
     public heroSlots: Node[] = [];
 
     init(home: HomeUI) {
@@ -29,7 +29,7 @@ export class BackPackUI extends Component {
 
     addHeroSlot() {
         let heroSlot = instantiate(this.slotPrefab);
-        this.scrollView.content.addChild(heroSlot);
+        this.scrollView.content!.addChild(heroSlot);
         return heroSlot;
     }
 

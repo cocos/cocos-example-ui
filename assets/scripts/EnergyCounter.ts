@@ -1,4 +1,4 @@
-import { _decorator, Component, LabelComponent, ProgressBarComponent } from "cc";
+import { _decorator, Component, Label, ProgressBar } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass
@@ -10,17 +10,17 @@ export class EnergyCounter extends Component{
     @property
     public currentCount = 0;
     @property({
-        type: LabelComponent
+        type: Label
     })
-    labelTimer: LabelComponent | null = null;
+    labelTimer: Label = null!;
     @property({
-        type: LabelComponent
+        type: Label
     })
-    labelCount: LabelComponent | null = null;
+    labelCount: Label = null!;
     @property({
-        type: ProgressBarComponent
+        type: ProgressBar
     })
-    progressBar: ProgressBarComponent | null = null;
+    progressBar: ProgressBar = null!;
 
     private _timer = 0;
 
@@ -28,7 +28,7 @@ export class EnergyCounter extends Component{
         this._timer = 0;
     }
 
-    update(dt) {
+    update(dt: number) {
         let ratio = this._timer / this.timeToRecover;
         this.progressBar.progress = ratio;
         if (this.currentCount > this.totalCount) this.currentCount = this.totalCount;

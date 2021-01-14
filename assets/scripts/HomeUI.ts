@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, AnimationComponent, Enum, eventManager } from "cc";
+import { _decorator, Component, Node, Animation, Enum, eventManager } from "cc";
 const { ccclass, property } = _decorator;
 import { BackPackUI } from "./BackPackUI";
 import { ShopUI } from "./ShopUI";
@@ -7,16 +7,16 @@ import { PanelType } from "./PanelType";
 
 @ccclass
 export class HomeUI extends Component {
-    @property(AnimationComponent)
-    menuAnim: AnimationComponent | null = null;
+    @property(Animation)
+    menuAnim: Animation = null!;
     @property([Node])
     homeBtnGroups: Node[] = [];
     @property(BackPackUI)
-    backPackUI: BackPackUI | null = null;
+    backPackUI: BackPackUI = null!;
     @property(ShopUI)
-    shopUI: ShopUI | null = null;
+    shopUI: ShopUI = null!;
     @property(ChallengeUI)
-    challengeUI: ChallengeUI | null = null;
+    challengeUI: ChallengeUI = null!;
 
     public curPanel = PanelType.Home;
 
