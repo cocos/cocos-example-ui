@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Animation, Enum, eventManager } from "cc";
+import { _decorator, Component, Node, Animation, Enum } from "cc";
 const { ccclass, property } = _decorator;
 import { BackPackUI } from "./BackPackUI";
 import { ShopUI } from "./ShopUI";
@@ -9,8 +9,6 @@ import { PanelType } from "./PanelType";
 export class HomeUI extends Component {
     @property(Animation)
     menuAnim: Animation = null!;
-    @property([Node])
-    homeBtnGroups: Node[] = [];
     @property(BackPackUI)
     backPackUI: BackPackUI = null!;
     @property(ShopUI)
@@ -33,17 +31,6 @@ export class HomeUI extends Component {
         this.scheduleOnce(() => {
             this.menuAnim.play('menu_intro');
         }, 0.5);
-    }
-
-    toggleHomeBtns(enable: boolean) {
-        for (let i = 0; i < this.homeBtnGroups.length; ++i) {
-            let group = this.homeBtnGroups[i];
-            if (!enable) {
-                eventManager.pauseTarget(group, true);
-            } else {
-                eventManager.resumeTarget(group, true);
-            }
-        }
     }
 
     gotoShop() {

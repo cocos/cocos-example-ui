@@ -25,13 +25,11 @@ export class ChallengeUI extends Component {
     show() {
         this.node.active = true;
         this.node.emit('fade-in');
-        this.home.toggleHomeBtns(false);
     }
 
     hide() {
         this.node.active = false;
         this.node.emit('fade-out');
-        this.home.toggleHomeBtns(true);
     }
 
     _rotateRole(event: EventTouch){
