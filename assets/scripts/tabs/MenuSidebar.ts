@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteFrame, Prefab, Node, eventManager } from "cc";
+import { _decorator, Component, SpriteFrame, Prefab, Node } from "cc";
 import { TabCtrl } from "./TabCtrl";
 import { MainMenu } from "./MainMenu";
 const { ccclass, property } = _decorator;
@@ -48,10 +48,8 @@ export class MenuSidebar extends Component{
             let tab = this.tabs[i];
             if (tab.idx === idx) {
                 tab.turnBig();
-                eventManager.pauseTarget(tab.node);
             } else if (this.curTabIdx === tab.idx) {
                 tab.turnSmall();
-                eventManager.resumeTarget(tab.node);
             }
         }
         this.curTabIdx = idx;

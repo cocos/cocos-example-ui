@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, eventManager } from "cc";
+import { _decorator, Component, Node } from "cc";
 const { ccclass, property } = _decorator;
 import { MenuSidebar } from "./MenuSidebar";
 
@@ -23,16 +23,6 @@ export class MainMenu extends Component{
 
     switchPanel(idx: number) {
         this.curPanelIdx = idx;
-        // let newX = this.curPanelIdx * -this.panelWidth;
-        // let rollerMove = cc.moveTo(this.tabSwitchDuration, cc.p(newX, 0)).easing(cc.easeQuinticActionInOut());
-        // let callback = cc.callFunc(this.onSwitchPanelFinished, this);
-        // this.roller.stopAllActions();
-        eventManager.pauseTarget(this.roller);
-        // this.roller.runAction(cc.sequence(rollerMove, callback));
-    }
-
-    onSwitchPanelFinished() {
-        eventManager.resumeTarget(this.roller);
     }
 }
 
