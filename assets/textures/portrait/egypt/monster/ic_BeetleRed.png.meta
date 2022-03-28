@@ -1,0 +1,43 @@
+{
+  "ver": "1.0.16",
+  "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6c48a": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "88eca76d-decc-4ee3-bb6c-4e5204221af0@6c48a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "88eca76d-decc-4ee3-bb6c-4e5204221af0"
+      },
+      "displayName": "ic_BeetleRed",
+      "id": "6c48a",
+      "name": "texture"
+    }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "88eca76d-decc-4ee3-bb6c-4e5204221af0@6c48a"
+  },
+  "imported": true
+}

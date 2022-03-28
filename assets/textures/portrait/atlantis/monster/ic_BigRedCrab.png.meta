@@ -1,0 +1,43 @@
+{
+  "ver": "1.0.16",
+  "uuid": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6c48a": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54@6c48a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54"
+      },
+      "displayName": "ic_BigRedCrab",
+      "id": "6c48a",
+      "name": "texture"
+    }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "c6c18d6d-8023-4fd7-8ffc-d540ed34ee54@6c48a"
+  },
+  "imported": true
+}

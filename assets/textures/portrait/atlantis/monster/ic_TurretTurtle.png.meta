@@ -1,0 +1,43 @@
+{
+  "ver": "1.0.16",
+  "uuid": "e1c5eeb4-333c-4407-8bd0-3f52f8da2c93",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6c48a": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "e1c5eeb4-333c-4407-8bd0-3f52f8da2c93@6c48a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e1c5eeb4-333c-4407-8bd0-3f52f8da2c93"
+      },
+      "displayName": "ic_TurretTurtle",
+      "id": "6c48a",
+      "name": "texture"
+    }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "e1c5eeb4-333c-4407-8bd0-3f52f8da2c93@6c48a"
+  },
+  "imported": true
+}

@@ -1,0 +1,43 @@
+{
+  "ver": "1.0.16",
+  "uuid": "69ee3bed-3716-4b4a-8c93-5e4d741cfc06",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6c48a": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "69ee3bed-3716-4b4a-8c93-5e4d741cfc06@6c48a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "69ee3bed-3716-4b4a-8c93-5e4d741cfc06"
+      },
+      "displayName": "ic_BlackWizard",
+      "id": "6c48a",
+      "name": "texture"
+    }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "69ee3bed-3716-4b4a-8c93-5e4d741cfc06@6c48a"
+  },
+  "imported": true
+}
