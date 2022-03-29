@@ -1,0 +1,43 @@
+{
+  "ver": "1.0.16",
+  "uuid": "f88426b3-5e76-4865-90b7-1904d58cc3b4",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "6c48a": {
+      "ver": "1.0.19",
+      "importer": "texture",
+      "uuid": "f88426b3-5e76-4865-90b7-1904d58cc3b4@6c48a",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {},
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "premultiplyAlpha": false,
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "f88426b3-5e76-4865-90b7-1904d58cc3b4"
+      },
+      "displayName": "ic_AnubisBlue",
+      "id": "6c48a",
+      "name": "texture"
+    }
+  },
+  "importer": "image",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "userData": {
+    "type": "texture",
+    "redirect": "f88426b3-5e76-4865-90b7-1904d58cc3b4@6c48a"
+  },
+  "imported": true
+}
