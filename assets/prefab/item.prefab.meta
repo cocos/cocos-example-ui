@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.1.27",
   "importer": "prefab",
   "imported": true,
   "uuid": "2125d7ef-b22b-472a-9b75-9614156e272d",
@@ -7,5 +7,7 @@
     ".json"
   ],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "syncNodeName": "item"
+  }
 }

@@ -1,11 +1,13 @@
 {
-  "ver": "1.0.6",
-  "uuid": "5ab2e3ea-b712-480d-ab01-0f41b2e92b12",
-  "subMetas": {},
+  "ver": "1.0.11",
   "importer": "animation-clip",
+  "imported": true,
+  "uuid": "5ab2e3ea-b712-480d-ab01-0f41b2e92b12",
   "files": [
     ".json"
   ],
-  "userData": {},
-  "imported": true
+  "subMetas": {},
+  "userData": {
+    "name": "sub_pop"
+  }
 }

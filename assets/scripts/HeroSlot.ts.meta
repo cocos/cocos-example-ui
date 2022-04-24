@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "57d1506f-0e3c-4b04-bc50-4fa87f57169b",
@@ -7,6 +7,7 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/HeroSlot.ts",
-    "importAsPlugin": false
+    "importAsPlugin": false,
+    "simulateGlobals": []
   }
 }

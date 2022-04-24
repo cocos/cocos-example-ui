@@ -11,7 +11,8 @@
     {
       "USE_ALBEDO_MAP": true,
       "METALLIC_CHANNEL": "b",
-      "OCCLUSION_CHANNEL": "g"
+      "OCCLUSION_CHANNEL": "g",
+      "ROUGHNESS_CHANNEL": "r"
     }
   ],
   "_states": [
@@ -34,13 +35,6 @@
         "b": 247,
         "a": 255
       },
-      "pbrParams": {
-        "__type__": "cc.Vec4",
-        "x": 1,
-        "y": 1,
-        "z": 1,
-        "w": 1
-      },
       "pbrScale": {
         "__type__": "cc.Vec4",
         "x": 1,
@@ -50,7 +44,10 @@
       },
       "albedoMap": {
         "__uuid__": "39c01d9f-4fa2-4f90-ad50-c8f4c35cc5e6@6c48a"
-      }
+      },
+      "occlusion": 1,
+      "roughness": 1,
+      "metallic": 0.6
     }
   ]
 }

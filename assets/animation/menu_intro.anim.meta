@@ -1,11 +1,13 @@
 {
-  "ver": "1.0.6",
-  "uuid": "8125423d-2c3c-4780-b483-dcfd4532c05f",
-  "subMetas": {},
+  "ver": "1.0.11",
   "importer": "animation-clip",
+  "imported": true,
+  "uuid": "8125423d-2c3c-4780-b483-dcfd4532c05f",
   "files": [
     ".json"
   ],
-  "userData": {},
-  "imported": true
+  "subMetas": {},
+  "userData": {
+    "name": "menu_intro"
+  }
 }

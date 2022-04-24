@@ -1,11 +1,13 @@
 {
-  "ver": "1.0.6",
-  "uuid": "1210c08c-e904-4e3e-a21c-fd0d37e1e341",
-  "subMetas": {},
+  "ver": "1.0.11",
   "importer": "animation-clip",
+  "imported": true,
+  "uuid": "1210c08c-e904-4e3e-a21c-fd0d37e1e341",
   "files": [
     ".json"
   ],
-  "userData": {},
-  "imported": true
+  "subMetas": {},
+  "userData": {
+    "name": "figure_breath"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "b20ed616-639a-4ca3-abfd-9efa57c03b1b",
@@ -8,6 +8,7 @@
   "userData": {
     "importAsPlugin": false,
     "moduleId": "project:///assets/scripts/testlist/backbutton.js",
-    "importerSettings": 4
+    "importerSettings": 4,
+    "simulateGlobals": []
   }
 }

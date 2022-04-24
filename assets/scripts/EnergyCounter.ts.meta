@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "ee01cbae-5d67-4a3e-9dca-e99487f9788e",
@@ -7,6 +7,7 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/EnergyCounter.ts",
-    "importAsPlugin": false
+    "importAsPlugin": false,
+    "simulateGlobals": []
   }
 }

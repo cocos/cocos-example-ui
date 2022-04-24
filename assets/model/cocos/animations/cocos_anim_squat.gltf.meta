@@ -1,12 +1,12 @@
 {
-  "ver": "1.3.11",
+  "ver": "2.0.14",
   "importer": "gltf",
   "imported": true,
   "uuid": "58c9fdbf-de49-4141-83fa-9ad83f78591c",
   "files": [],
   "subMetas": {
     "b940a": {
-      "ver": "1.0.13",
+      "ver": "1.0.14",
       "importer": "gltf-animation",
       "name": "cocos_anim_squat.animation",
       "id": "b940a",
@@ -25,11 +25,12 @@
           "from": 0,
           "to": 1.8666667938232422
         },
-        "events": []
+        "events": [],
+        "wrapMode": 2
       }
     },
     "6c8e7": {
-      "ver": "1.0.8",
+      "ver": "1.0.12",
       "importer": "gltf-scene",
       "name": "cocos_anim_squat.prefab",
       "id": "6c8e7",
@@ -58,7 +59,8 @@
           {
             "name": "cocos_anim_squat",
             "from": 0,
-            "to": 1.8666667938232422
+            "to": 1.8666667938232422,
+            "wrapMode": 2
           }
         ]
       }

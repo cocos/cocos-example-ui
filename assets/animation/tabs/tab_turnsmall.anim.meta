@@ -1,11 +1,13 @@
 {
-  "ver": "1.0.6",
-  "uuid": "7ec8ee3b-013d-4ae6-90e2-0446bac580fd",
-  "subMetas": {},
+  "ver": "1.0.11",
   "importer": "animation-clip",
+  "imported": true,
+  "uuid": "7ec8ee3b-013d-4ae6-90e2-0446bac580fd",
   "files": [
     ".json"
   ],
-  "userData": {},
-  "imported": true
+  "subMetas": {},
+  "userData": {
+    "name": "tab_turnsmall"
+  }
 }

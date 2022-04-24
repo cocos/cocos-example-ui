@@ -1,11 +1,13 @@
 {
-  "ver": "1.0.6",
-  "uuid": "1472f312-9671-4996-a036-34c3f3c1bd41",
-  "subMetas": {},
+  "ver": "1.0.11",
   "importer": "animation-clip",
+  "imported": true,
+  "uuid": "1472f312-9671-4996-a036-34c3f3c1bd41",
   "files": [
     ".json"
   ],
-  "userData": {},
-  "imported": true
+  "subMetas": {},
+  "userData": {
+    "name": "shop_intro"
+  }
 }

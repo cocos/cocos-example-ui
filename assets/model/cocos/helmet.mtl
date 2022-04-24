@@ -14,7 +14,8 @@
       "USE_METALLIC_ROUGHNESS_MAP": true,
       "ROUGHNESS_CHANNEL": "g",
       "METALLIC_CHANNEL": "b",
-      "OCCLUSION_CHANNEL": "g"
+      "OCCLUSION_CHANNEL": "g",
+      "USE_SKINNING": true
     }
   ],
   "_states": [
@@ -48,7 +49,10 @@
       },
       "metallicRoughnessMap": {
         "__uuid__": "cd618de5-59fc-4899-ba4f-55195f3e24ce@6c48a"
-      }
+      },
+      "occlusion": 1,
+      "roughness": 1,
+      "metallic": 1
     }
   ]
 }

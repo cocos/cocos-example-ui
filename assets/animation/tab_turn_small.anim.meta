@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.6",
+  "ver": "1.0.11",
   "importer": "animation-clip",
   "imported": true,
   "uuid": "25a5c5f0-6d35-4440-bc6e-c3c7f637f8cd",
@@ -7,5 +7,7 @@
     ".json"
   ],
   "subMetas": {},
-  "userData": {}
+  "userData": {
+    "name": "tab_turn_small"
+  }
 }

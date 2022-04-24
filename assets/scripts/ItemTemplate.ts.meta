@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "34f7e749-44ce-4c2b-a097-0da0cec66834",
@@ -7,6 +7,7 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/ItemTemplate.ts",
-    "importAsPlugin": false
+    "importAsPlugin": false,
+    "simulateGlobals": []
   }
 }

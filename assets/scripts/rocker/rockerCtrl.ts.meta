@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.21",
+  "ver": "4.0.22",
   "importer": "typescript",
   "imported": true,
   "uuid": "03934756-ae55-4a2c-921b-a4f0850a5cf7",
@@ -7,6 +7,7 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/rocker/rockerCtrl.ts",
-    "importAsPlugin": false
+    "importAsPlugin": false,
+    "simulateGlobals": []
   }
 }

@@ -1,13 +1,12 @@
 {
-  "ver": "1.0.4",
-  "uuid": "1316ed6c-3cd7-469b-8f14-ab659123629c",
-  "textureUuid": "0c2bef11-b494-4511-9c56-f5195e65f929",
-  "fontSize": 40,
-  "subMetas": {},
+  "ver": "1.0.5",
   "importer": "bitmap-font",
+  "imported": true,
+  "uuid": "1316ed6c-3cd7-469b-8f14-ab659123629c",
   "files": [
     ".json"
   ],
+  "subMetas": {},
   "userData": {
     "_fntConfig": {
       "commonHeight": 40,
@@ -173,6 +172,5 @@
     },
     "fontSize": 40,
     "textureUuid": "0c2bef11-b494-4511-9c56-f5195e65f929"
-  },
-  "imported": true
+  }
 }

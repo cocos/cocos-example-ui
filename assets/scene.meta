@@ -1,12 +1,14 @@
 {
-  "ver": "0.0.1",
-  "importer": "*",
+  "ver": "1.1.0",
+  "importer": "directory",
   "imported": true,
   "uuid": "4932a7e0-9cb0-420b-b575-385e245f0eab",
   "files": [],
   "subMetas": {},
   "userData": {
     "type": "texture",
-    "redirect": "4932a7e0-9cb0-420b-b575-385e245f0eab@texture"
+    "redirect": "4932a7e0-9cb0-420b-b575-385e245f0eab@texture",
+    "compressionType": {},
+    "isRemoteBundle": {}
   }
 }
