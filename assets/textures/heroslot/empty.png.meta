@@ -1,5 +1,5 @@
 {
-  "ver": "1.0.21",
+  "ver": "1.0.23",
   "importer": "image",
   "imported": true,
   "uuid": "9e2b5b51-b152-4505-b493-c83cf9ce8fcf",
@@ -16,8 +16,8 @@
       "name": "texture",
       "userData": {
         "imageUuidOrDatabaseUri": "9e2b5b51-b152-4505-b493-c83cf9ce8fcf",
-        "wrapModeS": "repeat",
-        "wrapModeT": "repeat",
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
         "minfilter": "linear",
         "magfilter": "linear",
         "mipfilter": "none",
@@ -76,6 +76,7 @@
   "userData": {
     "type": "sprite-frame",
     "redirect": "9e2b5b51-b152-4505-b493-c83cf9ce8fcf@f9941",
-    "hasAlpha": true
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false
   }
 }

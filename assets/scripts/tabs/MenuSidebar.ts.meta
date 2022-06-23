@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "f6bf218f-c16f-4184-97e1-3a959db3d0cf",
@@ -7,7 +7,6 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/tabs/MenuSidebar.ts",
-    "importAsPlugin": false,
     "simulateGlobals": []
   }
 }

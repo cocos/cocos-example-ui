@@ -21,5 +21,7 @@
       ]
     }
   },
-  "events": []
+  "_tracks": [],
+  "_events": [],
+  "_exoticAnimation": null
 }

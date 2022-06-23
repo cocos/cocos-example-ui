@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "edc2aee2-b5da-4343-9043-63eb155a4c09",
@@ -7,7 +7,6 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/HomeUI.ts",
-    "importAsPlugin": false,
     "simulateGlobals": []
   }
 }

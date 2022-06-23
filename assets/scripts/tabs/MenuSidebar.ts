@@ -1,4 +1,4 @@
-import { _decorator, Component, SpriteFrame, Prefab, Node } from "cc";
+import { _decorator, Component, SpriteFrame, Prefab, Node, instantiate } from "cc";
 import { TabCtrl } from "./TabCtrl";
 import { MainMenu } from "./MainMenu";
 const { ccclass, property } = _decorator;
@@ -29,8 +29,12 @@ export class MenuSidebar extends Component{
         this.tabs = [];
         for (let i = 0; i < this.tabIcons.length; ++i) {
             let iconSF = this.tabIcons[i];
-            let tab = cc.instantiate(this.tabPrefab).getComponent(TabCtrl);
-            this.container.addChild(tab.node);
+            
+            // use '!' to ensure that this overload is being accessed: `export function instantiate(prefab: Prefab): Node`
+            let tabParent = instantiate(this.tabPrefab!);
+ 
+            let tab = tabParent.getComponent(TabCtrl)!;
+            this.container?.addChild(tab.node);-
             tab.init({
                 sidebar: this,
                 idx: i,
@@ -39,8 +43,10 @@ export class MenuSidebar extends Component{
             this.tabs[i] = tab;
         }
         this.tabs[this.curTabIdx].turnBig();
-        const pos = this.highlight.position;
-        this.highlight.setPosition(this.curTabIdx * this.tabWidth, pos.y, pos.z);
+        const pos = this.highlight?.position;
+        if( pos != null ){
+            this.highlight?.setPosition(this.curTabIdx * this.tabWidth, pos.y, pos.z);
+        }        
     }
 
     tabPressed(idx: number) {
@@ -56,6 +62,6 @@ export class MenuSidebar extends Component{
         // let highlightMove = cc.moveTo(this.tabSwitchDuration, cc.p(this.curTabIdx * this.tabWidth)).easing(cc.easeQuinticActionInOut());
         // this.highlight.stopAllActions();
         // this.highlight.runAction(highlightMove);
-        this.mainMenu.switchPanel(this.curTabIdx);
+        this.mainMenu?.switchPanel(this.curTabIdx);
     }
 }

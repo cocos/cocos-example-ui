@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "a254bdaf-9915-45af-99c5-84247b5b0c1b",
@@ -7,7 +7,6 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/PanelTransition.ts",
-    "importAsPlugin": false,
     "simulateGlobals": []
   }
 }
