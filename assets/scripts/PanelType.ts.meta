@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "da599459-849c-438d-a0f5-deff0b4ceee5",
@@ -7,7 +7,6 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/PanelType.ts",
-    "importAsPlugin": false,
     "simulateGlobals": []
   }
 }

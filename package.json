@@ -1,8 +1,8 @@
 {
+  "creator": {
+    "version": "3.5.1"
+  },
   "name": "demo-ui",
   "type": "3d",
-  "creator": {
-    "version": "3.1.0"
-  },
   "uuid": "0bd80113-4da4-4e0a-90c9-c8d85d3b77b7"
 }

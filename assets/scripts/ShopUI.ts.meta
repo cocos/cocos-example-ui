@@ -1,5 +1,5 @@
 {
-  "ver": "4.0.22",
+  "ver": "4.0.23",
   "importer": "typescript",
   "imported": true,
   "uuid": "0d6f9406-2f8f-456b-8506-545f5f999add",
@@ -7,7 +7,6 @@
   "subMetas": {},
   "userData": {
     "moduleId": "project:///assets/scripts/ShopUI.ts",
-    "importAsPlugin": false,
     "simulateGlobals": []
   }
 }
