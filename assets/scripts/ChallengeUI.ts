@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, SystemEventType, EventTouch, Vec3 } from "cc";
+import { _decorator, Component, Node, EventTouch, Vec3, Input } from "cc";
 import { HomeUI } from "./HomeUI";
 const { ccclass, property } = _decorator;
 
@@ -18,7 +18,7 @@ export class ChallengeUI extends Component {
 
     init(home: HomeUI) {
         this.home = home;
-        this.roleClkArea.on(SystemEventType.TOUCH_MOVE, this._rotateRole, this);
+        this.roleClkArea.on(Input.EventType.TOUCH_MOVE, this._rotateRole, this);
         this._rot.set(this.role.eulerAngles);
     }
 

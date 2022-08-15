@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "db68e56f-b77d-41d1-b5bb-f600a7df3de7",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "db68e56f-b77d-41d1-b5bb-f600a7df3de7@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "db68e56f-b77d-41d1-b5bb-f600a7df3de7"
+        "imageUuidOrDatabaseUri": "db68e56f-b77d-41d1-b5bb-f600a7df3de7",
+        "visible": true
       },
       "displayName": "ic_TheBlueWizard",
       "id": "6c48a",

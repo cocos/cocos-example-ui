@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "431653e9-3e0a-45f9-bd1f-d6398c7488a2",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "431653e9-3e0a-45f9-bd1f-d6398c7488a2@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "431653e9-3e0a-45f9-bd1f-d6398c7488a2"
+        "imageUuidOrDatabaseUri": "431653e9-3e0a-45f9-bd1f-d6398c7488a2",
+        "visible": true
       },
       "displayName": "ic_Archers",
       "id": "6c48a",

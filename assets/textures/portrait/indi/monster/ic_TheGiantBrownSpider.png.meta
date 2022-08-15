@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "10e5b9bb-8f58-467d-9e43-f99403e88f3b",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "10e5b9bb-8f58-467d-9e43-f99403e88f3b@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "10e5b9bb-8f58-467d-9e43-f99403e88f3b"
+        "imageUuidOrDatabaseUri": "10e5b9bb-8f58-467d-9e43-f99403e88f3b",
+        "visible": true
       },
       "displayName": "ic_TheGiantBrownSpider",
       "id": "6c48a",

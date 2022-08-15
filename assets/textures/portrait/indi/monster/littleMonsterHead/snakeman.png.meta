@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "fdce928c-b25b-4482-8530-c45587043696",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "fdce928c-b25b-4482-8530-c45587043696@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "fdce928c-b25b-4482-8530-c45587043696"
+        "imageUuidOrDatabaseUri": "fdce928c-b25b-4482-8530-c45587043696",
+        "visible": true
       },
       "displayName": "snakeman",
       "id": "6c48a",

@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "a477fa45-eda8-4a78-b2dc-ac334c040d5d",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "a477fa45-eda8-4a78-b2dc-ac334c040d5d@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "a477fa45-eda8-4a78-b2dc-ac334c040d5d"
+        "imageUuidOrDatabaseUri": "a477fa45-eda8-4a78-b2dc-ac334c040d5d",
+        "visible": true
       },
       "displayName": "chighost_red",
       "id": "6c48a",

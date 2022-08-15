@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "f237c7db-0f6a-48fb-b60f-e6497a0de4e9",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "f237c7db-0f6a-48fb-b60f-e6497a0de4e9@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f237c7db-0f6a-48fb-b60f-e6497a0de4e9"
+        "imageUuidOrDatabaseUri": "f237c7db-0f6a-48fb-b60f-e6497a0de4e9",
+        "visible": true
       },
       "displayName": "indiwarrior_brown",
       "id": "6c48a",

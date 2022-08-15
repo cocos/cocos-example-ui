@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "cb7a051a-e0dd-44ad-a446-4079ed812fc9",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "cb7a051a-e0dd-44ad-a446-4079ed812fc9@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "cb7a051a-e0dd-44ad-a446-4079ed812fc9"
+        "imageUuidOrDatabaseUri": "cb7a051a-e0dd-44ad-a446-4079ed812fc9",
+        "visible": true
       },
       "displayName": "ic_RedTentacles",
       "id": "6c48a",

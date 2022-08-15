@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "c96e50ac-ef08-432a-8658-124800b484ef",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "c96e50ac-ef08-432a-8658-124800b484ef@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "c96e50ac-ef08-432a-8658-124800b484ef"
+        "imageUuidOrDatabaseUri": "c96e50ac-ef08-432a-8658-124800b484ef",
+        "visible": true
       },
       "displayName": "ic_cipacret",
       "id": "6c48a",

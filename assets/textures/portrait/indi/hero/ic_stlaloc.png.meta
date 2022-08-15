@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "a6d9dca5-2004-4d75-a72b-b7a213f4e714",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -22,9 +22,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true
+        "isUuid": true,
+        "visible": false
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -32,7 +33,7 @@
       "subMetas": {}
     },
     "f9941": {
-      "ver": "1.0.9",
+      "ver": "1.0.11",
       "importer": "sprite-frame",
       "uuid": "a6d9dca5-2004-4d75-a72b-b7a213f4e714@f9941",
       "imported": true,
@@ -66,7 +67,65 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "a6d9dca5-2004-4d75-a72b-b7a213f4e714@6c48a",
         "atlasUuid": "",
-        "packable": true
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -56.5,
+            -58.5,
+            0,
+            56.5,
+            -58.5,
+            0,
+            -56.5,
+            58.5,
+            0,
+            56.5,
+            58.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            19,
+            126,
+            132,
+            126,
+            19,
+            9,
+            132,
+            9
+          ],
+          "nuv": [
+            0.12666666666666668,
+            0.06,
+            0.88,
+            0.06,
+            0.12666666666666668,
+            0.84,
+            0.88,
+            0.84
+          ],
+          "minPos": [
+            -56.5,
+            -58.5,
+            0
+          ],
+          "maxPos": [
+            56.5,
+            58.5,
+            0
+          ]
+        }
       },
       "displayName": "ic_stlaloc",
       "id": "f9941",

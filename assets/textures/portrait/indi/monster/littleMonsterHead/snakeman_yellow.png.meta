@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "1c9c510d-6818-4d1c-b8da-80083c43d2ae",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "1c9c510d-6818-4d1c-b8da-80083c43d2ae@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "1c9c510d-6818-4d1c-b8da-80083c43d2ae"
+        "imageUuidOrDatabaseUri": "1c9c510d-6818-4d1c-b8da-80083c43d2ae",
+        "visible": true
       },
       "displayName": "snakeman_yellow",
       "id": "6c48a",

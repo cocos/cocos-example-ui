@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "d630bee3-6a76-400b-864d-0832423ab0b2",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "d630bee3-6a76-400b-864d-0832423ab0b2@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "d630bee3-6a76-400b-864d-0832423ab0b2"
+        "imageUuidOrDatabaseUri": "d630bee3-6a76-400b-864d-0832423ab0b2",
+        "visible": true
       },
       "displayName": "21",
       "id": "6c48a",
