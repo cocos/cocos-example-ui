@@ -1,4 +1,4 @@
-import { _decorator, Button, Component, director, game, Node, ScrollViewComponent, Vec3, Layout } from 'cc';
+import { _decorator, Button, Component, director, game, Node, ScrollView, Vec3, Layout, Vec2 } from 'cc';
 const { ccclass, property } = _decorator;
 import { sceneArray } from './SceneList';
 
@@ -35,7 +35,7 @@ export class BackButton extends Component {
         }
     }
     private static _offset = new Vec3();
-    private static _scrollCom: ScrollViewComponent | null = null;
+    private static _scrollCom: ScrollView | null = null;
 
     private static _sceneIndex: number = -1;
     private static _blockInput : Node;
@@ -64,7 +64,7 @@ export class BackButton extends Component {
         game.addPersistRootNode(this.node);
         BackButton._scrollNode = this.node.getParent()!.getChildByPath('Canvas/ScrollView') as Node;
         if (BackButton._scrollNode) {
-            BackButton._scrollCom = BackButton._scrollNode.getComponent(ScrollViewComponent);
+            BackButton._scrollCom = BackButton._scrollNode.getComponent(ScrollView);
         }
         BackButton._blockInput = this.node.getChildByName('BlockInput') as Node;
         BackButton._blockInput.active = false;
@@ -82,10 +82,11 @@ export class BackButton extends Component {
             BackButton.refreshButton();
             BackButton._scrollNode = this.node.getParent()!.getChildByPath('Canvas/ScrollView') as Node;
             if (BackButton._scrollNode) {
-                BackButton._scrollCom = BackButton._scrollNode.getComponent(ScrollViewComponent);
+                BackButton._scrollCom = BackButton._scrollNode.getComponent(ScrollView);
                 // @ts-ignore
                 BackButton._scrollCom._content.getComponent(Layout).updateLayout();
-                BackButton._scrollCom!.scrollToOffset(BackButton.offset, 0.1, true);
+                let offset = new Vec2(BackButton.offset.x, BackButton.offset.y);
+                BackButton._scrollCom!.scrollToOffset(offset, 0.1, true);
             }
             BackButton._blockInput.active = false;
         });

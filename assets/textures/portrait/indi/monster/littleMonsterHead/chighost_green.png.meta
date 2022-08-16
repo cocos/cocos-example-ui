@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701"
+        "imageUuidOrDatabaseUri": "5c55f2e6-1721-4f9f-96b2-3b1b30b23701",
+        "visible": true
       },
       "displayName": "chighost_green",
       "id": "6c48a",

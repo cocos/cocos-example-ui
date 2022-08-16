@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835"
+        "imageUuidOrDatabaseUri": "6cd0aa66-4b81-42b7-95ad-1a82cc30a835",
+        "visible": true
       },
       "displayName": "ic_BlackTentacles",
       "id": "6c48a",

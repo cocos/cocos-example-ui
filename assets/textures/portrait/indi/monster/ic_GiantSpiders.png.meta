@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "d0b0d2d9-1dac-4708-a24b-8fcd8986b46f",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "d0b0d2d9-1dac-4708-a24b-8fcd8986b46f@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "d0b0d2d9-1dac-4708-a24b-8fcd8986b46f"
+        "imageUuidOrDatabaseUri": "d0b0d2d9-1dac-4708-a24b-8fcd8986b46f",
+        "visible": true
       },
       "displayName": "ic_GiantSpiders",
       "id": "6c48a",

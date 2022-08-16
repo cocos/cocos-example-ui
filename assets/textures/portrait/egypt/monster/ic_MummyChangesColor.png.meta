@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c"
+        "imageUuidOrDatabaseUri": "6c1c03e7-0a86-4f2e-a2aa-605d8e33256c",
+        "visible": true
       },
       "displayName": "ic_MummyChangesColor",
       "id": "6c48a",

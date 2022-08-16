@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.24",
   "importer": "image",
   "imported": true,
   "uuid": "93e99691-afa5-4a9c-89e8-79c0a7cd0af5",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -22,9 +22,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true
+        "isUuid": true,
+        "visible": false
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -32,7 +33,7 @@
       "subMetas": {}
     },
     "f9941": {
-      "ver": "1.0.9",
+      "ver": "1.0.11",
       "importer": "sprite-frame",
       "uuid": "93e99691-afa5-4a9c-89e8-79c0a7cd0af5@f9941",
       "imported": true,
@@ -66,7 +67,65 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "93e99691-afa5-4a9c-89e8-79c0a7cd0af5@6c48a",
         "atlasUuid": "",
-        "packable": true
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -45,
+            -47.5,
+            0,
+            45,
+            -47.5,
+            0,
+            -45,
+            47.5,
+            0,
+            45,
+            47.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            31,
+            125,
+            121,
+            125,
+            31,
+            30,
+            121,
+            30
+          ],
+          "nuv": [
+            0.20666666666666667,
+            0.2,
+            0.8066666666666666,
+            0.2,
+            0.20666666666666667,
+            0.8333333333333334,
+            0.8066666666666666,
+            0.8333333333333334
+          ],
+          "minPos": [
+            -45,
+            -47.5,
+            0
+          ],
+          "maxPos": [
+            45,
+            47.5,
+            0
+          ]
+        }
       },
       "displayName": "ic_yuji",
       "id": "f9941",
