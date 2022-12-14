@@ -40,7 +40,7 @@
       "emissiveMap": {
         "__uuid__": "026c4a15-e07d-4053-86de-9f9fe30188e5@6c48a"
       },
-      "occlusion": 1,
+      "occlusion": 0,
       "roughness": 0.8,
       "metallic": 0.6
     }

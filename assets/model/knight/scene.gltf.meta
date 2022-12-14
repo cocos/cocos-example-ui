@@ -1,5 +1,5 @@
 {
-  "ver": "2.2.0",
+  "ver": "2.3.2",
   "importer": "gltf",
   "imported": true,
   "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0",
@@ -65,7 +65,7 @@
       "displayName": ""
     },
     "e39f7": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "5cc5f0f4-43dd-405c-a9c0-6247d1bfa1b0@e39f7",
       "imported": true,

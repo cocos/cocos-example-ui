@@ -45,7 +45,7 @@
       "albedoMap": {
         "__uuid__": "39c01d9f-4fa2-4f90-ad50-c8f4c35cc5e6@6c48a"
       },
-      "occlusion": 1,
+      "occlusion": 0,
       "roughness": 1,
       "metallic": 0.6
     }

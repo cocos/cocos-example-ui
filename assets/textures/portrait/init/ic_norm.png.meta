@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "8c7b3fb3-1f8a-4647-a85c-84c592b4720a",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -22,9 +22,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true
+        "isUuid": true,
+        "visible": false
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -32,7 +33,7 @@
       "subMetas": {}
     },
     "f9941": {
-      "ver": "1.0.9",
+      "ver": "1.0.11",
       "importer": "sprite-frame",
       "uuid": "8c7b3fb3-1f8a-4647-a85c-84c592b4720a@f9941",
       "imported": true,
@@ -66,7 +67,65 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "8c7b3fb3-1f8a-4647-a85c-84c592b4720a@6c48a",
         "atlasUuid": "",
-        "packable": true
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -55,
+            -47.5,
+            0,
+            55,
+            -47.5,
+            0,
+            -55,
+            47.5,
+            0,
+            55,
+            47.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            21,
+            115,
+            131,
+            115,
+            21,
+            20,
+            131,
+            20
+          ],
+          "nuv": [
+            0.14,
+            0.13333333333333333,
+            0.8733333333333333,
+            0.13333333333333333,
+            0.14,
+            0.7666666666666667,
+            0.8733333333333333,
+            0.7666666666666667
+          ],
+          "minPos": [
+            -55,
+            -47.5,
+            0
+          ],
+          "maxPos": [
+            55,
+            47.5,
+            0
+          ]
+        }
       },
       "displayName": "ic_norm",
       "id": "f9941",

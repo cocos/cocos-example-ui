@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "",
+    "_name": "home",
     "_objFlags": 0,
     "_native": "",
     "scene": {
@@ -15807,7 +15807,6 @@
     "_type": 0,
     "_inverted": false,
     "_segments": 64,
-    "_spriteFrame": null,
     "_alphaThreshold": 0.1,
     "_id": "6czgqIZn1CaJ2cs+jOS6Zs"
   },
@@ -20941,7 +20940,6 @@
     "_type": 0,
     "_inverted": false,
     "_segments": 64,
-    "_spriteFrame": null,
     "_alphaThreshold": 0.1,
     "_id": "100O849BhFqpCXyqbkefBj"
   },
@@ -22653,7 +22651,7 @@
     "fileId": "d73Z5dd5dCJIo+p2j1/kcO"
   },
   {
-    "__type__": "cc.ModelLightmapSettings",
+    "__type__": "cc.ModelBakeSettings",
     "texture": null,
     "uvParam": {
       "__type__": "cc.Vec4",

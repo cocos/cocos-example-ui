@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "8defb5ec-4894-4a50-a9d8-eb33f64034a7@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "8defb5ec-4894-4a50-a9d8-eb33f64034a7"
+        "imageUuidOrDatabaseUri": "8defb5ec-4894-4a50-a9d8-eb33f64034a7",
+        "visible": true
       },
       "displayName": "ic_LancerBlue",
       "id": "6c48a",

@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "5f4dd798-2ae6-4bbf-84b4-504bb6cceaed",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "name": "texture",
       "id": "6c48a",
@@ -29,7 +29,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5f4dd798-2ae6-4bbf-84b4-504bb6cceaed"
+        "imageUuidOrDatabaseUri": "5f4dd798-2ae6-4bbf-84b4-504bb6cceaed",
+        "visible": true
       }
     }
   },

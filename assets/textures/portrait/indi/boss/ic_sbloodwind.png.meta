@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "ef058b16-9144-4ff3-92b2-852ecf9e2c9e",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "ef058b16-9144-4ff3-92b2-852ecf9e2c9e@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "ef058b16-9144-4ff3-92b2-852ecf9e2c9e"
+        "imageUuidOrDatabaseUri": "ef058b16-9144-4ff3-92b2-852ecf9e2c9e",
+        "visible": true
       },
       "displayName": "ic_sbloodwind",
       "id": "6c48a",

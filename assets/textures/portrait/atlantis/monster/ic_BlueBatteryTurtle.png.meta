@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "52c11025-13af-4d70-98eb-085e5a9e81b6",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "52c11025-13af-4d70-98eb-085e5a9e81b6@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "52c11025-13af-4d70-98eb-085e5a9e81b6"
+        "imageUuidOrDatabaseUri": "52c11025-13af-4d70-98eb-085e5a9e81b6",
+        "visible": true
       },
       "displayName": "ic_BlueBatteryTurtle",
       "id": "6c48a",

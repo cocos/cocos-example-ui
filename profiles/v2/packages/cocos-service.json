@@ -1,0 +1,31 @@
+{
+  "__version__": "3.0.5",
+  "builder-options": {
+    "configID": "1d2b28",
+    "services": [
+      {
+        "service_id": "235",
+        "service_component_name": "service-analytics",
+        "builder": "C:\\Users\\wanghaibo\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+        "enable": false,
+        "params": {}
+      }
+    ]
+  },
+  "builder": {
+    "options": {
+      "web-desktop": {
+        "configID": "1d2b28",
+        "services": [
+          {
+            "service_id": "235",
+            "service_component_name": "service-analytics",
+            "builder": "C:\\Users\\wanghaibo\\.CocosCreator\\.service\\analytics\\builder\\builder.js",
+            "enable": false,
+            "params": {}
+          }
+        ]
+      }
+    }
+  }
+}

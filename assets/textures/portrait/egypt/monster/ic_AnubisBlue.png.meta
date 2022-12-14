@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "f88426b3-5e76-4865-90b7-1904d58cc3b4",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "f88426b3-5e76-4865-90b7-1904d58cc3b4@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "f88426b3-5e76-4865-90b7-1904d58cc3b4"
+        "imageUuidOrDatabaseUri": "f88426b3-5e76-4865-90b7-1904d58cc3b4",
+        "visible": true
       },
       "displayName": "ic_AnubisBlue",
       "id": "6c48a",

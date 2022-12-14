@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c"
+        "imageUuidOrDatabaseUri": "1b57d4d6-082c-4a79-abc0-86c9b934ff5c",
+        "visible": true
       },
       "displayName": "ic_Mummy",
       "id": "6c48a",

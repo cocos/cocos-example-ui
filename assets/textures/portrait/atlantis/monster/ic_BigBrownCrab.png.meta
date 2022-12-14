@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "5226d022-edda-45d9-9230-9945a1a19af9",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "5226d022-edda-45d9-9230-9945a1a19af9@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "5226d022-edda-45d9-9230-9945a1a19af9"
+        "imageUuidOrDatabaseUri": "5226d022-edda-45d9-9230-9945a1a19af9",
+        "visible": true
       },
       "displayName": "ic_BigBrownCrab",
       "id": "6c48a",

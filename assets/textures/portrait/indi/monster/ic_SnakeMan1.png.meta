@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65"
+        "imageUuidOrDatabaseUri": "ed6b4af8-5bb9-4714-b473-9132e3e8eb65",
+        "visible": true
       },
       "displayName": "ic_SnakeMan1",
       "id": "6c48a",

@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "e72f4cec-599d-4091-86b4-028fb8c3c026",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "e72f4cec-599d-4091-86b4-028fb8c3c026@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "e72f4cec-599d-4091-86b4-028fb8c3c026"
+        "imageUuidOrDatabaseUri": "e72f4cec-599d-4091-86b4-028fb8c3c026",
+        "visible": true
       },
       "displayName": "indiwarrior_green",
       "id": "6c48a",
