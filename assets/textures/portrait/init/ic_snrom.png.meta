@@ -1,11 +1,11 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "893f6783-50a1-46d7-a74d-dafc7e24f27c",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
@@ -22,9 +22,10 @@
         "magfilter": "linear",
         "mipfilter": "none",
         "anisotropy": 0,
-        "isUuid": true
+        "isUuid": true,
+        "visible": false
       },
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "imported": true,
       "files": [
         ".json"
@@ -32,7 +33,7 @@
       "subMetas": {}
     },
     "f9941": {
-      "ver": "1.0.9",
+      "ver": "1.0.11",
       "importer": "sprite-frame",
       "uuid": "893f6783-50a1-46d7-a74d-dafc7e24f27c@f9941",
       "imported": true,
@@ -66,7 +67,65 @@
         "isUuid": true,
         "imageUuidOrDatabaseUri": "893f6783-50a1-46d7-a74d-dafc7e24f27c@6c48a",
         "atlasUuid": "",
-        "packable": true
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -56.5,
+            -54.5,
+            0,
+            56.5,
+            -54.5,
+            0,
+            -56.5,
+            54.5,
+            0,
+            56.5,
+            54.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            21,
+            130,
+            134,
+            130,
+            21,
+            21,
+            134,
+            21
+          ],
+          "nuv": [
+            0.14,
+            0.14,
+            0.8933333333333333,
+            0.14,
+            0.14,
+            0.8666666666666667,
+            0.8933333333333333,
+            0.8666666666666667
+          ],
+          "minPos": [
+            -56.5,
+            -54.5,
+            0
+          ],
+          "maxPos": [
+            56.5,
+            54.5,
+            0
+          ]
+        }
       },
       "displayName": "ic_snrom",
       "id": "f9941",

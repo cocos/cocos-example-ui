@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "946a7e47-1937-4e6f-a0e5-8f3d743327ac",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "946a7e47-1937-4e6f-a0e5-8f3d743327ac@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "946a7e47-1937-4e6f-a0e5-8f3d743327ac"
+        "imageUuidOrDatabaseUri": "946a7e47-1937-4e6f-a0e5-8f3d743327ac",
+        "visible": true
       },
       "displayName": "ic_schterminator",
       "id": "6c48a",

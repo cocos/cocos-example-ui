@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "a8dcc43f-396f-4d30-9a2a-4115287245f5",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "a8dcc43f-396f-4d30-9a2a-4115287245f5@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "a8dcc43f-396f-4d30-9a2a-4115287245f5"
+        "imageUuidOrDatabaseUri": "a8dcc43f-396f-4d30-9a2a-4115287245f5",
+        "visible": true
       },
       "displayName": "ic_ninetales",
       "id": "6c48a",

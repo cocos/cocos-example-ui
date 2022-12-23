@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314"
+        "imageUuidOrDatabaseUri": "aa86a5f6-1b5d-4f39-8aac-8d4b9f646314",
+        "visible": true
       },
       "displayName": "ic_EgyptianViperGreen",
       "id": "6c48a",

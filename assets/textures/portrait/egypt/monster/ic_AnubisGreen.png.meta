@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "e9faeafe-0249-46b6-9c9f-35bceb45eb8e",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "e9faeafe-0249-46b6-9c9f-35bceb45eb8e@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "e9faeafe-0249-46b6-9c9f-35bceb45eb8e"
+        "imageUuidOrDatabaseUri": "e9faeafe-0249-46b6-9c9f-35bceb45eb8e",
+        "visible": true
       },
       "displayName": "ic_AnubisGreen",
       "id": "6c48a",

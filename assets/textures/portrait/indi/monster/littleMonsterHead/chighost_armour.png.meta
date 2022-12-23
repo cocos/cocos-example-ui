@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "97217455-06d3-4da1-a800-38e0b221a0d4",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "97217455-06d3-4da1-a800-38e0b221a0d4@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "97217455-06d3-4da1-a800-38e0b221a0d4"
+        "imageUuidOrDatabaseUri": "97217455-06d3-4da1-a800-38e0b221a0d4",
+        "visible": true
       },
       "displayName": "chighost_armour",
       "id": "6c48a",

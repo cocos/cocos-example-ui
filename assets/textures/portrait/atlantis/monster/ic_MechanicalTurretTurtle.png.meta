@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "2c84d042-ef14-43b8-9650-4b6155790a83",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "2c84d042-ef14-43b8-9650-4b6155790a83@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "2c84d042-ef14-43b8-9650-4b6155790a83"
+        "imageUuidOrDatabaseUri": "2c84d042-ef14-43b8-9650-4b6155790a83",
+        "visible": true
       },
       "displayName": "ic_MechanicalTurretTurtle",
       "id": "6c48a",

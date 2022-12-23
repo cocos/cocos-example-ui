@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "19672ff4-04a5-4aca-8c28-7906c2d8b715",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "19672ff4-04a5-4aca-8c28-7906c2d8b715@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "19672ff4-04a5-4aca-8c28-7906c2d8b715"
+        "imageUuidOrDatabaseUri": "19672ff4-04a5-4aca-8c28-7906c2d8b715",
+        "visible": true
       },
       "displayName": "murloc_blue",
       "id": "6c48a",

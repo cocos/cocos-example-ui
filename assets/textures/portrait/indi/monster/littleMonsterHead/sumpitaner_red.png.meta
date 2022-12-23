@@ -1,15 +1,15 @@
 {
-  "ver": "1.0.23",
+  "ver": "1.0.25",
   "importer": "image",
   "imported": true,
   "uuid": "3590ba3b-bf53-4ea0-b01a-92b16e210665",
   "files": [
-    ".png",
-    ".json"
+    ".json",
+    ".png"
   ],
   "subMetas": {
     "6c48a": {
-      "ver": "1.0.21",
+      "ver": "1.0.22",
       "importer": "texture",
       "uuid": "3590ba3b-bf53-4ea0-b01a-92b16e210665@6c48a",
       "imported": true,
@@ -26,7 +26,8 @@
         "premultiplyAlpha": false,
         "anisotropy": 0,
         "isUuid": true,
-        "imageUuidOrDatabaseUri": "3590ba3b-bf53-4ea0-b01a-92b16e210665"
+        "imageUuidOrDatabaseUri": "3590ba3b-bf53-4ea0-b01a-92b16e210665",
+        "visible": true
       },
       "displayName": "sumpitaner_red",
       "id": "6c48a",
