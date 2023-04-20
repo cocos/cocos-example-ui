@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, systemEvent, SystemEventType, Touch, Vec2, Vec3, loader, Sprite, math, Animation } from "cc";
+import { _decorator, Component, Node, Vec2, Vec3, Animation, Input, input, EventTouch } from "cc";
 const { ccclass, property } = _decorator;
 
 // 操作半径
@@ -30,18 +30,18 @@ export class RockerCtrl extends Component {
         _tempPos.set(0, 90, 0);
         this.role.eulerAngles = _tempPos;
         this._animComp = this.role.getComponentInChildren(Animation)!;
-        systemEvent.on(SystemEventType.TOUCH_START, this.touchStart, this);
-        systemEvent.on(SystemEventType.TOUCH_MOVE, this.touchMove, this);
-        systemEvent.on(SystemEventType.TOUCH_END, this.touchEnd, this);
+        input.on(Input.EventType.TOUCH_START, this.touchStart, this);
+        input.on(Input.EventType.TOUCH_MOVE, this.touchMove, this);
+        input.on(Input.EventType.TOUCH_END, this.touchEnd, this);
     }
 
     onDestroy() {
-        systemEvent.off(SystemEventType.TOUCH_START, this.touchStart, this);
-        systemEvent.off(SystemEventType.TOUCH_MOVE, this.touchMove, this);
-        systemEvent.off(SystemEventType.TOUCH_END, this.touchEnd, this);
+        input.off(Input.EventType.TOUCH_START, this.touchStart, this);
+        input.off(Input.EventType.TOUCH_MOVE, this.touchMove, this);
+        input.off(Input.EventType.TOUCH_END, this.touchEnd, this);
     }
 
-    touchStart(touch: Touch){
+    touchStart(touch: EventTouch){
         this.changeState('cocos_anim_run');
         touch.getUILocation(this._startPos);
         const distance = this._startPos.length();
@@ -54,7 +54,7 @@ export class RockerCtrl extends Component {
         }
     }
 
-    touchMove(touch: Touch){
+    touchMove(touch: EventTouch){
         if(!this._isTouch){
             return;
         }
@@ -85,7 +85,7 @@ export class RockerCtrl extends Component {
         this._touchPos.set(this._movePos);
     }
 
-    touchEnd(touch: Touch){
+    touchEnd(touch: EventTouch){
         this._isTouch = false;
         this.changeState('cocos_anim_idle');
         this.ctrlSprite.setPosition(this.originPos);
